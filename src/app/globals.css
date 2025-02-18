@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+  :root {
+    --background: 222.86 11.48% 11.96%;
+    --foreground: 0 0% 100%;
+    --card: 216 6.67% 14.71%;
+    --card-foreground: 0 0% 41.57%;
+    --popover: 180 100% 95%;
+    --popover-foreground: 180 100% 0%;
+    --primary: 180 81.5% 53.3%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 181.03 71.78% 31.96%;
+    --secondary-foreground: 0 0% 0%;
+    --muted: 142 30% 85%;
+    --muted-foreground: 180 5% 35%;
+    --accent: 190.34 76.32% 14.9%;
+    --accent-foreground: 222.86 11.48% 11.96%;
+    --destructive: 0 100% 30%;
+    --destructive-foreground: 180 5% 90%;
+    --border: 180 30% 50%;
+    --input: 180 30% 18%;
+    --ring: 180 81.5% 53.3%;
+    --radius: 99999px;
+  }
+
+  .dark {
+    --background: 222.86 11.48% 11.96%;
+    --foreground: 0 0% 100%;
+    --card: 216 6.67% 14.71%;
+    --card-foreground: 0 0% 99.61%;
+    --popover: 180 50% 5%;
+    --popover-foreground: 180 5% 90%;
+    --primary: 180 81.5% 53.3%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 181.03 71.78% 31.96%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 142 30% 15%;
+    --muted-foreground: 180 5% 60%;
+    --accent: 190.34 76.32% 14.9%;
+    --accent-foreground: 222.86 11.48% 11.96%;
+    --destructive: 0 100% 30%;
+    --destructive-foreground: 180 5% 90%;
+    --border: 180 30% 18%;
+    --input: 180 30% 18%;
+    --ring: 180 81.5% 53.3%;
+    --radius: 99999px;
+  }
+
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  .scroll-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    will-change: transform;
+  }
+}
