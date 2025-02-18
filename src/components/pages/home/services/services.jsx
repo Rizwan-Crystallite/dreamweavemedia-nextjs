@@ -1,3 +1,4 @@
+"use client"
 // Media
 import bg from "media/services-bg.webp"
 import shade1 from "media/shade-1.webp"
@@ -6,7 +7,10 @@ import shade2 from "media/shade-2.webp"
 import Image from "next/image"
 // Components
 import { Button } from "@/components"
+// UI
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card"
+// Framer
+import { motion } from "framer-motion"
 
 const data = [
     {
@@ -46,13 +50,19 @@ export default function Services() {
         <section>
             <div className="relative z-[1] before:content-[''] before:inset-0 before:w-full before:absolute before:h-full before:[mix-blend-mode:overlay;] before:-z-[1] before:bg-background before:opacity-75 py-[100px]">
                 <Image src={bg} alt="Dream Weave Media" fill priority className="object-cover object-center opacity-75 -z-[2]" />
-                <Image src={shade1} alt="Dream Weave Media" priority className="absolute -top-[350px] right-0 -z-[1]" />
-                <div className="container">
+                <motion.div
+                    viewport={{ once: true }}
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1, transition: { opacity: { ease: "linear" } } }}
+                >
+                    <Image src={shade1} alt="Dream Weave Media" priority className="absolute -top-[350px] right-0 -z-[1]" />
+                </motion.div>
+                <div className="container relative z-[2]">
                     <div className="relative z-10">
                         <span className="inline-block text-[70px] sm:text-[100px] md:text-[150px] lg:text-[200px] font-bold stroke-white [-webkit-text-stroke:3px_#0BCCCF] [-webkit-text-fill-color:transparent;] opacity-10 leading-snug animate-text-stroke">
                             Services
                         </span>
-                        <h3 className="text-[40px] sm:text-[40px] md:text-[50px] lg:text-[60px] leading-tight font-bold sm:absolute sm:top-7 md:top-14 lg:top-24 mb-10">
+                        <h3 className="text-[40px] md:text-[50px] lg:text-[60px] leading-tight font-bold sm:absolute sm:top-7 md:top-14 lg:top-24 mb-10">
                             Core Services We Provide
                         </h3>
                     </div>
@@ -94,7 +104,13 @@ export default function Services() {
                         }
                     </div>
                 </div>
-                <Image src={shade2} alt="Dream Weave Media" className="absolute -bottom-[350px] left-0 -z-[1]" />
+                <motion.div
+                    viewport={{ once: true }}
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1, transition: { opacity: { ease: "linear" } } }}
+                >
+                    <Image src={shade2} alt="Dream Weave Media" className="absolute -bottom-[350px] left-0 -z-[1]" />
+                </motion.div>
             </div>
         </section>
     )

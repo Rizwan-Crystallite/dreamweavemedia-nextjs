@@ -61,7 +61,7 @@ export default function OurWork() {
                             <span className="inline-block text-[70px] sm:text-[100px] lg:text-[150px] xl:text-[200px] font-bold stroke-white [-webkit-text-stroke:3px_#0BCCCF] [-webkit-text-fill-color:transparent;] opacity-10 leading-snug animate-text-stroke">
                                 Portfolio
                             </span>
-                            <h3 className="text-[40px] sm:text-[40px] md:text-[50px] lg:text-[60px] leading-tight font-bold sm:absolute sm:top-7 lg:top-14 xl:top-24 mb-10">
+                            <h3 className="text-[40px] md:text-[50px] lg:text-[60px] leading-tight font-bold sm:absolute sm:top-7 lg:top-14 xl:top-24 mb-10">
                                 Our Work
                             </h3>
                         </div>
