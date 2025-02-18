@@ -46,7 +46,7 @@ export default function Services() {
         <section>
             <div className="relative z-[1] before:content-[''] before:inset-0 before:w-full before:absolute before:h-full before:[mix-blend-mode:overlay;] before:-z-[1] before:bg-background before:opacity-75 py-[100px]">
                 <Image src={bg} alt="Dream Weave Media" fill priority className="object-cover object-center opacity-75 -z-[2]" />
-                <Image src={shade1} alt="Dream Weave Media" className="absolute -top-[350px] right-0 -z-[1]" />
+                <Image src={shade1} alt="Dream Weave Media" priority className="absolute -top-[350px] right-0 -z-[1]" />
                 <div className="container">
                     <div className="relative z-10">
                         <span className="inline-block text-[70px] sm:text-[100px] md:text-[150px] lg:text-[200px] font-bold stroke-white [-webkit-text-stroke:3px_#0BCCCF] [-webkit-text-fill-color:transparent;] opacity-10 leading-snug animate-text-stroke">
@@ -59,7 +59,7 @@ export default function Services() {
                     <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
                         {
                             data.map(({ title, para, link }, i) => (
-                                <CardContainer key={i} className="bg-card rounded-2xl py-10 px-4 sm:px-6 hover:bg-accent transition-all duration-300 group hover:bg-blend-color hover:shadow-[0px_10px_10px_rgba(0,_0,_0,_0.1)] hover:backdrop-blur-[2px] border-2 hover:border-primary border-transparent group/card">
+                                <CardContainer key={i} className="relative group/card bg-card rounded-2xl py-10 px-4 sm:px-6 hover:bg-popover transition-all duration-300 group-hover/card:bg-blend-color group-hover/card:shadow-[0px_10px_10px_rgba(0,_0,_0,_0.1)] group-hover/card:backdrop-blur-[2px] border-2 hover:border-primary border-transparent">
                                     <CardBody>
                                         <CardItem
                                             translateZ="50"
@@ -70,7 +70,7 @@ export default function Services() {
                                         <CardItem
                                             as="p"
                                             translateZ="60"
-                                            className="text-[16px] leading-relaxed text-card-foreground transition-all duration-300 group-hover:text-white mb-5"
+                                            className="text-[16px] leading-relaxed text-card-foreground transition-all duration-300 group-hover/card:text-white mb-5"
                                         >
                                             {para}
                                         </CardItem>
@@ -78,7 +78,7 @@ export default function Services() {
                                             translateZ={20}
                                             as="button"
                                         >
-                                            <Button asChild className="text-card-foreground group-hover:text-white" variant="linkIcon2">
+                                            <Button asChild className="text-card-foreground group-hover/card:text-white" variant="linkIcon2">
                                                 <div dangerouslySetInnerHTML={{
                                                     __html: `<a href=${link}>
                                                         <span>Learn More</span>

@@ -12,7 +12,7 @@ export default function Header() {
     const [isSticky, setIsSticky] = useState(false);
     useEffect(() => {
         const handleScroll = () => {
-            const isSticky = window.scrollY > 10
+            const isSticky = window.scrollY > 5
             setIsSticky(isSticky)
         }
         window.addEventListener("scroll", handleScroll)
