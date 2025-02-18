@@ -20,7 +20,7 @@ const socials = [
 export default function Hero() {
     return (
         <section>
-            <div className="bg-black pt-[150px] pb-[70px] xl:pb-0 xl:pt-0 xl:h-screen flex flex-col justify-center">
+            <div className="bg-black pt-[150px] pb-[70px] xl:pb-0 xl:pt-0 xl:h-screen flex flex-col justify-center relative z-[1]">
                 <div className="container relative z-10">
                     <div className="max-w-[960px]">
                         <h1 className="text-[28px] sm:text-[45px] md:text-[60px] lg:text-[75px] font-bold leading-snug sm:leading-tight mb-3">
