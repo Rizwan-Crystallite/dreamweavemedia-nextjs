@@ -4,8 +4,8 @@ import Image from "next/image"
 // React
 import React, { useCallback, useEffect, useState } from "react"
 // Media
-import PrevArrow from "media/prev-arrow.png"
-import NextArrow from "media/next-arrow.png"
+import PrevArrow from "media/right-arrow.svg"
+import NextArrow from "media/right-arrow.svg"
 
 export const usePrevNextButtons = (emblaApi) => {
     const [prevBtnDisabled, setPrevBtnDisabled] = useState(true)
@@ -48,8 +48,9 @@ export const PrevButton = (props) => {
         <button
             type="button"
             {...restProps}
+            className="inline-flex items-center justify-center border-2 border-white rounded-full w-[40px] h-[40px] hover:bg-secondary transition-all duration-300"
         >
-            <Image src={PrevArrow} alt="PrevArrow" />
+            <Image src={PrevArrow} alt="PrevArrow" className="rotate-180" />
         </button>
     )
 }
@@ -61,8 +62,9 @@ export const NextButton = (props) => {
         <button
             type="button"
             {...restProps}
+            className="inline-flex items-center justify-center border-2 border-white rounded-full w-[40px] h-[40px] hover:bg-secondary transition-all duration-300"
         >
-            <Image src={NextArrow} alt="NextArrow" />
+            <Image src={NextArrow} alt="NextArrow" className="" />
         </button>
     )
 }

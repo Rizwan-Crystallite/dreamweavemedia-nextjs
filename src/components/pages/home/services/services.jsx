@@ -1,7 +1,7 @@
 // Media
-import bg from "media/services-bg.png"
-import shade1 from "media/shade-1.png"
-import shade2 from "media/shade-2.png"
+import bg from "media/services-bg.webp"
+import shade1 from "media/shade-1.webp"
+import shade2 from "media/shade-2.webp"
 // Next
 import Image from "next/image"
 // Components
@@ -40,7 +40,7 @@ const data = [
     }
 ]
 
-export function Services() {
+export default function Services() {
     return (
         <section>
             <div className="relative z-[1] before:content-[''] before:inset-0 before:w-full before:absolute before:h-full before:[mix-blend-mode:overlay;] before:-z-[1] before:bg-background before:opacity-75 py-[100px]">
