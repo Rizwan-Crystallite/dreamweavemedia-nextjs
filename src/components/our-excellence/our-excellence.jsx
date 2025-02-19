@@ -1,10 +1,25 @@
+"use client"
+// Media
+import shade1 from "media/shade-1.webp"
+import shade2 from "media/shade-2.webp"
 // Magic UI
 import { NumberTicker } from "@/components/magicui/number-ticker"
+// Framer
+import { motion } from "framer-motion"
+// Next
+import Image from "next/image"
 
 export default function OurExcellence() {
     return (
         <section>
-            <div className="pt-[50px] pb-[100px]">
+            <div className="pt-[50px] pb-[100px] relative z-[1]">
+                <motion.div
+                    viewport={{ once: true }}
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1, transition: { opacity: { ease: "linear" } } }}
+                >
+                    <Image src={shade1} alt="Dream Weave Media" priority className="absolute -top-[350px] right-0 -z-[1]" />
+                </motion.div>
                 <div className="container">
                     <div className="relative z-10 md:text-center mb-10 md:mb-28 xl:mb-0">
                         <span className="inline-block text-[45px] sm:text-[70px] md:text-[90px] lg:text-[125px] xl:text-[150px] 2xl:text-[180px] font-bold stroke-white [-webkit-text-stroke:3px_#0BCCCF] [-webkit-text-fill-color:transparent;] opacity-10 leading-snug animate-text-stroke">
@@ -34,6 +49,13 @@ export default function OurExcellence() {
                         }
                     </div>
                 </div>
+                <motion.div
+                    viewport={{ once: true }}
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1, transition: { opacity: { ease: "linear" } } }}
+                >
+                    <Image src={shade2} alt="Dream Weave Media" className="absolute -bottom-[350px] left-0 -z-[1]" />
+                </motion.div>
             </div>
         </section>
     )
