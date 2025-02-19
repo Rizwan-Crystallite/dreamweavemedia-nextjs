@@ -1,20 +1,10 @@
 .embla__dot--selected {
     position: relative;
 }
+
 .embla__dot--selected::after {
     content: '';
     position: absolute;
     inset: 0;
-    background-color: #2948FF;
-    animation: fillBar 4.4s forwards
-}
-
-@keyframes fillBar {
-    0% {
-        width: 0
-    }
-
-    to {
-        width: 100%
-    }
+    background-color: #0BCCCF;
 }

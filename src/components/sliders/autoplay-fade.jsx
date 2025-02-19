@@ -3,13 +3,14 @@
 import useEmblaCarousel from "embla-carousel-react"
 import ClassNames from "embla-carousel-class-names"
 import Autoplay from "embla-carousel-autoplay"
+import Fade from "embla-carousel-fade"
 // Components
 import { PrevButton, NextButton, usePrevNextButtons } from "./sliderarrows"
 import { DotButton, useDotButton } from "./sliderdots"
 // Css
 import "./sliderdots.css"
 
-export default function AutoPlaySlider({
+export default function AutoPlayFadeSlider({
     wrapperClasses = "",
     emblaWrapper = "flex [margin-left:calc(1rem_*_-1)]",
     options,
@@ -22,7 +23,8 @@ export default function AutoPlaySlider({
 }) {
     const plugins = [
         ClassNames(),
-        Autoplay({ delay: 5000, stopOnFocusIn: false, stopOnInteraction: false })
+        Fade(),
+        Autoplay({ delay: 3000, stopOnFocusIn: false, stopOnInteraction: false })
     ]
     const [emblaRef, emblaApi] = useEmblaCarousel({ align: align, loop: true, ...options }, plugins)
 
@@ -41,7 +43,7 @@ export default function AutoPlaySlider({
                     {children}
                 </div>
             </div>
-            <div className={`flex gap-5 items-center justify-between ${arrows ? "mt-[50px]" : null}`}>
+            <div className={`flex gap-5 items-center justify-between`}>
                 {
                     dots && <div className={`flex gap-5 w-[calc(100%_-100px)] embla__dots ${dotsCss}`}>
                         {scrollSnaps.map((_, index) => (

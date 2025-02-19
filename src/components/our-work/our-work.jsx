@@ -7,6 +7,8 @@ import four from "media/our-work/4.webp"
 import Image from "next/image"
 // Components
 import { AutoPlaySlider, Button } from "@/components"
+// Magic UI
+import { BlurFade } from "@/components/magicui/blur-fade"
 
 const data = [
     {
@@ -57,23 +59,27 @@ export default function OurWork() {
             <div className="overflow-hidden py-[100px]">
                 <div className="container">
                     <div className="md:flex items-center justify-between">
-                        <div className="relative z-10">
-                            <span className="inline-block text-[70px] sm:text-[100px] lg:text-[150px] xl:text-[200px] font-bold stroke-white [-webkit-text-stroke:3px_#0BCCCF] [-webkit-text-fill-color:transparent;] opacity-10 leading-snug animate-text-stroke">
-                                Portfolio
-                            </span>
-                            <h3 className="text-[40px] md:text-[50px] lg:text-[60px] leading-tight font-bold sm:absolute sm:top-7 lg:top-14 xl:top-24 mb-10">
-                                Our Work
-                            </h3>
-                        </div>
-                        <Button asChild variant="linkIcon2" className="mb-10 md:mb-0">
-                            <div dangerouslySetInnerHTML={{
-                                __html: `<a href='javascript:;'>
+                        <BlurFade delay={0.5} inView>
+                            <div className="relative z-10">
+                                <span className="inline-block text-[70px] sm:text-[100px] lg:text-[150px] xl:text-[200px] font-bold stroke-white [-webkit-text-stroke:3px_#0BCCCF] [-webkit-text-fill-color:transparent;] opacity-10 leading-snug animate-text-stroke">
+                                    Portfolio
+                                </span>
+                                <h3 className="text-[40px] md:text-[50px] lg:text-[60px] leading-tight font-bold sm:absolute sm:top-7 lg:top-14 xl:top-24 mb-10">
+                                    Our Work
+                                </h3>
+                            </div>
+                        </BlurFade>
+                        <BlurFade delay={0.5 * 2} inView>
+                            <Button asChild variant="linkIcon2" className="mb-10 md:mb-0">
+                                <div dangerouslySetInnerHTML={{
+                                    __html: `<a href='javascript:;'>
                                 <span>View All</span>
                                 <div class='inline-flex items-center justify-center border-2 border-white rounded-full w-[40px] h-[40px]'>
                                     <img src='/right-arrow.svg' alt="Dream Weave Media" width='23' height='22' />
                                 </div>
                             </a>` }} />
-                        </Button>
+                            </Button>
+                        </BlurFade>
                     </div>
                     <AutoPlaySlider emblaWrapper="flex [margin-left:calc(2rem_*_-1)]" wrapperClasses="overflow-visible" align="start" dots={false}>
                         {

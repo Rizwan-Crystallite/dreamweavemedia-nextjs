@@ -1,5 +1,5 @@
 // Components
-import { OurExcellence, OurWork } from "@/components"
+import { CaseStudies, OurExcellence, OurWork } from "@/components"
 import { Hero, Services } from "@/components/pages/home"
 
 export default function Page() {
@@ -9,6 +9,7 @@ export default function Page() {
       <Services />
       <OurWork />
       <OurExcellence />
+      <CaseStudies />
     </>
   )
 }

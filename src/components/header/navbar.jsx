@@ -43,14 +43,17 @@ const Link = ({ text, href, className = " " }) => {
 }
 
 const SubLink = () => {
-    const classes = "bg-card grid grid-cols-1 p-5 -ml-10 rounded-lg gap-3 top-full mt-2 absolute shadow-[0px_10px_10px_rgba(0,0,0,0.1)]"
+    const classes = "bg-card grid grid-cols-1 p-5 -ml-10 rounded-lg gap-5 top-full mt-2 absolute shadow-[0px_10px_10px_rgba(0,0,0,0.1)]"
     return (
         services && <NavigationMenuItem>
             <NavigationMenuTrigger>Services</NavigationMenuTrigger>
             <NavigationMenuContent className={classes}>
                 {
                     services.map(({ text, href }, i) => (
-                        <Link key={i} text={text} href={href} className="text-[16px]" />
+                        <span key={i} className="flex items-center gap-2.5">
+                            <span className="inline-block w-3 h-3 rounded-full border-2 border-primary"></span>
+                            <Link text={text} href={href} className="text-[16px]" />
+                        </span>
                     ))
                 }
             </NavigationMenuContent>

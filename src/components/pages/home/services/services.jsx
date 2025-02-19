@@ -11,6 +11,8 @@ import { Button } from "@/components"
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card"
 // Framer
 import { motion } from "framer-motion"
+// Magic UI
+import { BlurFade } from "@/components/magicui/blur-fade"
 
 const data = [
     {
@@ -58,14 +60,16 @@ export default function Services() {
                     <Image src={shade1} alt="Dream Weave Media" priority className="absolute -top-[350px] right-0 -z-[1]" />
                 </motion.div>
                 <div className="container relative z-[2]">
-                    <div className="relative z-10">
-                        <span className="inline-block text-[70px] sm:text-[100px] md:text-[150px] lg:text-[200px] font-bold stroke-white [-webkit-text-stroke:3px_#0BCCCF] [-webkit-text-fill-color:transparent;] opacity-10 leading-snug animate-text-stroke">
-                            Services
-                        </span>
-                        <h3 className="text-[40px] md:text-[50px] lg:text-[60px] leading-tight font-bold sm:absolute sm:top-7 md:top-14 lg:top-24 mb-10">
-                            Core Services We Provide
-                        </h3>
-                    </div>
+                    <BlurFade delay={0.5} inView>
+                        <div className="relative z-10">
+                            <span className="inline-block text-[70px] sm:text-[100px] md:text-[150px] lg:text-[200px] font-bold stroke-white [-webkit-text-stroke:3px_#0BCCCF] [-webkit-text-fill-color:transparent;] opacity-10 leading-snug animate-text-stroke">
+                                Services
+                            </span>
+                            <h3 className="text-[40px] md:text-[50px] lg:text-[60px] leading-tight font-bold sm:absolute sm:top-7 md:top-14 lg:top-24 mb-10">
+                                Core Services We Provide
+                            </h3>
+                        </div>
+                    </BlurFade>
                     <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
                         {
                             data.map(({ title, para, link }, i) => (

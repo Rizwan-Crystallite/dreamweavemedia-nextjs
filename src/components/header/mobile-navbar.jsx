@@ -20,7 +20,7 @@ const Link = ({ text, href }) => {
     const isActive = href === pathname
 
     return (
-        <NextLink href={href} className={`${isActive ? "text-primary" : ""} hover:text-primary transition-all duration-300 text-[16px] leading-loose`}>
+        <NextLink href={href} className={`${isActive ? "text-primary" : ""} hover:text-primary transition-all duration-300 text-[18px] leading-loose`}>
             {text}
         </NextLink>
     )
@@ -61,7 +61,10 @@ export default function MobileNavbar() {
                                 text === "Services" ? (
                                     <Sheet key={i}>
                                         <SheetTrigger>
-                                            Services
+                                            <span className="flex items-center gap-2.5">
+                                                <span className="inline-block w-3 h-3 rounded-full border-2 border-primary"></span>
+                                                Services
+                                            </span>
                                         </SheetTrigger>
                                         <SheetContent>
                                             <SheetHeader>
@@ -72,7 +75,10 @@ export default function MobileNavbar() {
                                                 {
                                                     services.map(({ text, href }, i) => (
                                                         <li key={i} onClick={(prev) => (setOpen(!prev))}>
-                                                            <Link href={href} text={text} />
+                                                            <span className="flex items-center gap-2.5">
+                                                                <span className="inline-block w-3 h-3 rounded-full border-2 border-primary"></span>
+                                                                <Link href={link} text={text} />
+                                                            </span>
                                                         </li>
                                                     ))
                                                 }
@@ -81,7 +87,10 @@ export default function MobileNavbar() {
                                     </Sheet>
                                 ) : (
                                     <li key={i} onClick={(prev) => (setOpen(!prev))}>
-                                        <Link href={link} text={text} />
+                                        <span className="flex items-center gap-2.5">
+                                            <span className="inline-block w-3 h-3 rounded-full border-2 border-primary"></span>
+                                            <Link href={link} text={text} />
+                                        </span>
                                     </li>
                                 )
                             ))
