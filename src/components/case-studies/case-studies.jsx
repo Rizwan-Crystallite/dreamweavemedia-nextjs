@@ -93,7 +93,7 @@ export default function CaseStudies() {
                         </Button>
                     </BlurFade>
                     <div className="relative mt-10">
-                        <AutoPlayFadeSlider arrows={false} dotsCss="absolute left-0 gap-0 -bottom-6 xl:bottom-0 [&_button]:w-[50px]">
+                        <AutoPlayFadeSlider arrows={false} dotsCss="absolute left-0 !gap-0 -bottom-6 xl:bottom-0 [&_button]:w-[50px]">
                             {
                                 data.map(({ category, logo, title, para, project, link }, i) => (
                                     <div className="shrink-0 grow-0 basis-full pl-4" key={i}>
