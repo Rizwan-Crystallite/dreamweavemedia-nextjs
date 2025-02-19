@@ -3,6 +3,8 @@ import * as React from "react"
 import * as SheetPrimitive from "@radix-ui/react-dialog"
 import { cva } from "class-variance-authority";
 import { X } from "lucide-react"
+// Components
+import { Button } from "@/components"
 
 import { cn } from "@/lib/utils"
 
@@ -35,7 +37,7 @@ const sheetVariants = cva(
           "inset-x-0 bottom-0 border-t data-[state=closed]:slide-out-to-bottom data-[state=open]:slide-in-from-bottom",
         left: "inset-y-0 left-0 h-full w-3/4 border-r data-[state=closed]:slide-out-to-left data-[state=open]:slide-in-from-left sm:max-w-sm",
         right:
-          "inset-y-0 right-0 h-full w-3/4 border-l data-[state=closed]:slide-out-to-right data-[state=open]:slide-in-from-right sm:max-w-sm",
+          "inset-y-0 right-0 h-full w-[85%] border-l data-[state=closed]:slide-out-to-right data-[state=open]:slide-in-from-right sm:max-w-sm",
       },
     },
     defaultVariants: {
@@ -54,6 +56,18 @@ const SheetContent = React.forwardRef(({ side = "right", className, children, ..
         <span className="sr-only">Close</span>
       </SheetPrimitive.Close>
       {children}
+      <div className="flex flex-col mt-5 gap-4">
+        <Button asChild className="[&_a]:!border-2 [&_a]:!w-full !w-full [&_a]:!rounded-full" variant="linkIcon">
+          <div dangerouslySetInnerHTML={{
+            __html: `<a href='tel:0001234567'>
+                <img src='/primary-c-phone.svg' alt="Dream Weave Media" width='25' height='24' />
+                <span>000 123 4567</span>
+            </a>` }} />
+        </Button>
+        <Button asChild className="!w-full [&_a]:!w-full">
+          <div dangerouslySetInnerHTML={{ __html: `<a href='javascript:;'>Get In Touch</a>` }} />
+        </Button>
+      </div>
     </SheetPrimitive.Content>
   </SheetPortal>
 ))
