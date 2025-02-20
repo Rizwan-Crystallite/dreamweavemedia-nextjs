@@ -10,6 +10,8 @@ import CaseStudies from "./case-studies/case-studies"
 import AutoPlayFadeSlider from "./sliders/autoplay-fade"
 import OurProcess from "./our-process/our-process"
 import Services from "./services/services"
+import OurClients from "./our-clients/our-clients"
+import Testimonials from "./testimonials/testimonials"
 
 export {
     Header,
@@ -21,5 +23,7 @@ export {
     CaseStudies,
     AutoPlayFadeSlider,
     OurProcess,
-    Services
+    Services,
+    OurClients,
+    Testimonials
 }

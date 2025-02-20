@@ -7,6 +7,8 @@ import MobileNavbar from "./mobile-navbar"
 import { motion } from "framer-motion"
 // React
 import { useEffect, useState } from "react"
+// Magic UI
+import { ScrollProgress } from "@/components/magicui/scroll-progress"
 
 export default function Header() {
     const [isSticky, setIsSticky] = useState(false);
@@ -55,6 +57,7 @@ export default function Header() {
                     </div>
                 </div>
             </div>
+            {isSticky && <ScrollProgress className="top-[126px]" />}
         </motion.header>
     )
 }
