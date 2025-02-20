@@ -56,7 +56,7 @@ const data = [
 export default function OurWork() {
     return (
         <section>
-            <div className="overflow-hidden py-[100px]">
+            <div className="overflow-hidden py-[100px] relative z-[2]">
                 <div className="container">
                     <div className="md:flex items-center justify-between">
                         <BlurFade delay={0.5} inView>
@@ -65,7 +65,7 @@ export default function OurWork() {
                                     Portfolio
                                 </span>
                                 <h3 className="text-[40px] md:text-[50px] lg:text-[60px] leading-tight font-bold sm:absolute sm:top-7 lg:top-14 xl:top-24 mb-10">
-                                    Our Work
+                                    Our <span className="text-primary">Work</span>
                                 </h3>
                             </div>
                         </BlurFade>

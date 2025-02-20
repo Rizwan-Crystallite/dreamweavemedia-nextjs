@@ -8,6 +8,8 @@ import AutoPlaySlider from "./sliders/autoplay"
 import OurExcellence from "./our-excellence/our-excellence"
 import CaseStudies from "./case-studies/case-studies"
 import AutoPlayFadeSlider from "./sliders/autoplay-fade"
+import OurProcess from "./our-process/our-process"
+import Services from "./services/services"
 
 export {
     Header,
@@ -17,5 +19,7 @@ export {
     AutoPlaySlider,
     OurExcellence,
     CaseStudies,
-    AutoPlayFadeSlider
+    AutoPlayFadeSlider,
+    OurProcess,
+    Services
 }

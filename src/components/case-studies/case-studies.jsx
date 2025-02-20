@@ -51,7 +51,7 @@ const data = [
 export default function CaseStudies() {
     return (
         <section>
-            <div className="pt-[50px] pb-[100px]">
+            <div className="pt-[50px] pb-[100px] relative z-[2]">
                 <div className="container">
                     <div className="xl:flex items-center justify-between mb-5">
                         <BlurFade delay={0.5} inView>
