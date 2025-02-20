@@ -4,7 +4,7 @@ import { fontSans } from "./fonts"
 // Css
 import "./globals.css"
 // Components
-import { Header } from "@/components"
+import { Footer, Header } from "@/components"
 // Meta Tags
 export const metadata = {
   title: "Dream Weave Media",
@@ -21,6 +21,7 @@ export default function RootLayout({ children }) {
             {children}
           </main>
         </SmoothScroll>
+        <Footer />
       </body>
     </html>
   )

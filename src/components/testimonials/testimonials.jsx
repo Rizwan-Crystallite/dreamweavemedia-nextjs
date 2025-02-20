@@ -39,7 +39,7 @@ const data = [
 export default function Testimonials() {
     return (
         <section>
-            <div className="pb-[190px] relative z-[1]">
+            <div className="pb-[190px] relative z-[1]" id="testimonial">
                 <motion.div
                     viewport={{ once: true }}
                     initial={{ opacity: 0 }}

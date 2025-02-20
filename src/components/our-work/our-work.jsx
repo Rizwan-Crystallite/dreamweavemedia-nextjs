@@ -56,7 +56,7 @@ const data = [
 export default function OurWork() {
     return (
         <section>
-            <div className="overflow-hidden py-[100px] relative z-[2]">
+            <div className="overflow-hidden py-[100px] relative z-[2]" id="wokr">
                 <div className="container">
                     <div className="md:flex items-center justify-between">
                         <BlurFade delay={0.5} inView>

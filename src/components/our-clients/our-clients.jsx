@@ -11,7 +11,7 @@ import Image from "next/image"
 export default function OurClients() {
     return (
         <section>
-            <div className="pb-[100px] relative z-[2]">
+            <div className="pb-[100px] relative z-[2]" id="partners">
                 <div className="container">
                     <BlurFade delay={0.5} inView>
                         <div className="relative z-10 mb-10">

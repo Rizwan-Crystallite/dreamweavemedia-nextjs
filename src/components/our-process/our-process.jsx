@@ -59,7 +59,7 @@ const data = [
 export default function OurProcess() {
     return (
         <section>
-            <div className="pt-[50px] pb-[100px] relative z-[2]">
+            <div className="pt-[50px] pb-[100px] relative z-[2]" id="process">
                 <motion.div
                     viewport={{ once: true }}
                     initial={{ opacity: 0 }}

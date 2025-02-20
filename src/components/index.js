@@ -15,6 +15,7 @@ import Testimonials from "./testimonials/testimonials"
 import Awards from "./awards/awards"
 import AutoScrollSlider from "./sliders/autoscroll"
 import PullCTA from "./pull-cta/pull-cta"
+import Footer from "./footer/footer"
 
 export {
     Header,
@@ -31,5 +32,6 @@ export {
     Testimonials,
     Awards,
     AutoScrollSlider,
-    PullCTA
+    PullCTA,
+    Footer
 }
