@@ -12,6 +12,9 @@ import OurProcess from "./our-process/our-process"
 import Services from "./services/services"
 import OurClients from "./our-clients/our-clients"
 import Testimonials from "./testimonials/testimonials"
+import Awards from "./awards/awards"
+import AutoScrollSlider from "./sliders/autoscroll"
+import PullCTA from "./pull-cta/pull-cta"
 
 export {
     Header,
@@ -25,5 +28,8 @@ export {
     OurProcess,
     Services,
     OurClients,
-    Testimonials
+    Testimonials,
+    Awards,
+    AutoScrollSlider,
+    PullCTA
 }

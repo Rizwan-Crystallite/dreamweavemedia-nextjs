@@ -43,7 +43,7 @@ const Link = ({ text, href, className = " " }) => {
 }
 
 const SubLink = () => {
-    const classes = "bg-card grid grid-cols-1 p-5 -ml-10 rounded-lg gap-5 top-full mt-2 absolute shadow-[0px_10px_10px_rgba(0,0,0,0.1)]"
+    const classes = "bg-card grid grid-cols-1 p-5 -ml-10 rounded-lg gap-5 top-full mt-2 z-50 absolute shadow-[0px_10px_10px_rgba(0,0,0,0.1)]"
     return (
         services && <NavigationMenuItem>
             <NavigationMenuTrigger>Services</NavigationMenuTrigger>

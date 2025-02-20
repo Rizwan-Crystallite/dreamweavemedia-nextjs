@@ -1,5 +1,5 @@
 // Components
-import { CaseStudies, OurExcellence, OurWork, Services, OurProcess, OurClients, Testimonials } from "@/components"
+import { CaseStudies, OurExcellence, OurWork, Services, OurProcess, OurClients, Testimonials, Awards, PullCTA } from "@/components"
 import { Hero } from "@/components/pages/home"
 
 export default function Page() {
@@ -13,6 +13,8 @@ export default function Page() {
       <OurProcess />
       <OurClients />
       <Testimonials />
+      <Awards />
+      <PullCTA />
     </>
   )
 }

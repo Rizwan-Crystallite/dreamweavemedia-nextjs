@@ -50,7 +50,7 @@ export default function Testimonials() {
                 <div className="container">
                     <BlurFade delay={0.5} inView>
                         <div className="relative z-10 mb-5">
-                            <span className="block text-center text-[46px] sm:text-[70px] md:text-[100px] lg:text-[140px] xl:text-[170px] 2xl:text-[200px] font-bold stroke-white [-webkit-text-stroke:3px_#0BCCCF] [-webkit-text-fill-color:transparent;] opacity-10 leading-snug animate-text-stroke">
+                            <span className="block text-center text-[46px] sm:text-[70px] md:text-[100px] lg:text-[140px] xl:text-[170px] 2xl:text-[200px] font-bold stroke-white [-webkit-text-stroke:3px_#0BCCCF] [-webkit-text-fill-color:transparent;] opacity-10 leading-snug lg:leading-none animate-text-stroke">
                                 Testimonial's
                             </span>
                             <h3 className="text-[40px] sm:text-[45px] lg:text-[50px] xl:text-[60px] leading-snug font-bold sm:absolute sm:top-0 sm:bottom-0 sm:h-full sm:flex sm:items-center justify-center sm:right-0 sm:left-0 text-center">
