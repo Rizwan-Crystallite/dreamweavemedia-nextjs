@@ -20,8 +20,8 @@ export default function RootLayout({ children }) {
           <main>
             {children}
           </main>
+          <Footer />
         </SmoothScroll>
-        <Footer />
       </body>
     </html>
   )
