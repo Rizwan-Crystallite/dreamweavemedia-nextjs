@@ -16,6 +16,8 @@ import Awards from "./awards/awards"
 import AutoScrollSlider from "./sliders/autoscroll"
 import PullCTA from "./pull-cta/pull-cta"
 import Footer from "./footer/footer"
+import Counter from "./counter/counter"
+import { TextScroll } from "./text-scroll/text-scroll"
 
 export {
     Header,
@@ -33,5 +35,7 @@ export {
     Awards,
     AutoScrollSlider,
     PullCTA,
-    Footer
+    Footer,
+    Counter,
+    TextScroll
 }

@@ -174,7 +174,7 @@ export default function Footer() {
                             <WhiteLogo />
                         </div>
                         <div className="basis-full lg:basis-auto">
-                            <ul className="flex flex-col divide-x-2 sm:flex-row items-center divide-[#838383] justify-center [&_li:first-child]:pr-2 [&_li:nth-child(2)]:px-2 [&_li:last-child]:pl-2">
+                            <ul className="flex flex-col sm:divide-x-2 sm:flex-row items-center sm:divide-[#838383] justify-center sm:[&_li:first-child]:pr-2 sm:[&_li:nth-child(2)]:px-2 sm:[&_li:last-child]:pl-2">
                                 {
                                     [
                                         ["2024 © Dream Weave Media", ""],

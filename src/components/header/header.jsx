@@ -57,7 +57,7 @@ export default function Header() {
                     </div>
                 </div>
             </div>
-            {isSticky && <ScrollProgress className="top-[126px]" />}
+            {isSticky && <ScrollProgress className="top-[125px]" />}
         </motion.header>
     )
 }
