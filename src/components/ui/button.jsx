@@ -11,8 +11,8 @@ const buttonVariants = cva(
       variant: {
         default:
           "bg-accent hover:text-accent-foreground hover:bg-primary border-2 border-transparent hover:border-white",
-        destructive:
-          "",
+        button:
+          "bg-primary text-accent hover:text-white hover:bg-accent border-2 border-transparent hover:border-white h-[50px] px-10 inline-flex items-center justify-center w-full",
         outline:
           "",
         secondary:
@@ -22,7 +22,7 @@ const buttonVariants = cva(
         linkIcon2: "[&_a]:!px-0 [&_div]:hover:bg-secondary [&:hover_div]:-rotate-45 [&_div]:transition-all [&_div]:duration-300",
       },
       type: {
-        anchor: "[&_a]:h-[50px] [&_a]:px-10 [&_a]:inline-flex [&_a]:items-center [&_a]:justify-center [&_a]:gap-2.5"
+        anchor: "[&_a]:h-[50px] [&_a]:px-10 [&_a]:inline-flex [&_a]:items-center [&_a]:justify-center [&_a]:gap-2.5",
       }
     },
     defaultVariants: {

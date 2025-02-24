@@ -29,16 +29,13 @@ const Link = ({ text, href, className = " " }) => {
     const isActive = href === pathname
 
     return (
-        <NextLink href={href} legacyBehavior passHref>
-            <NavigationMenuLink className={cn(
-                navigationMenuTriggerStyle(),
-                isActive ? "text-primary" : "",
-                "hover:text-primary transition-all duration-300",
-                className
-            )}>
-                {text}
-            </NavigationMenuLink>
-        </NextLink>
+        <NavigationMenuLink href={href} className={cn(
+            isActive ? "text-primary" : "",
+            "hover:text-primary transition-all duration-300",
+            className
+        )}>
+            {text}
+        </NavigationMenuLink>
     )
 }
 

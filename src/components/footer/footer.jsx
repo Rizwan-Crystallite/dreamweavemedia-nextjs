@@ -49,9 +49,9 @@ export default function Footer() {
                                         ["Contact", "/contact"]
                                     ].map(([text, link], i) => (
                                         <li key={i}>
-                                            <Link href={link} className={menuLinksHover}>
+                                            <a href={link} className={menuLinksHover}>
                                                 {text}
-                                            </Link>
+                                            </a>
                                         </li>
                                     ))
                                 }
@@ -71,9 +71,9 @@ export default function Footer() {
                                         ["Work", "#wokr"]
                                     ].map(([text, link], i) => (
                                         <li key={i}>
-                                            <Link href={link} className={menuLinksHover}>
+                                            <a href={link} className={menuLinksHover}>
                                                 {text}
-                                            </Link>
+                                            </a>
                                         </li>
                                     ))
                                 }
@@ -93,9 +93,9 @@ export default function Footer() {
                                         ["UI/UX Design", "/ui-ux-design"]
                                     ].map(([text, link], i) => (
                                         <li key={i}>
-                                            <Link href={link} className={menuLinksHover}>
+                                            <a href={link} className={menuLinksHover}>
                                                 {text}
-                                            </Link>
+                                            </a>
                                         </li>
                                     ))
                                 }
@@ -115,9 +115,9 @@ export default function Footer() {
                                         ["Careers", "/careers"]
                                     ].map(([text, link], i) => (
                                         <li key={i}>
-                                            <Link href={link} className={menuLinksHover}>
+                                            <a href={link} className={menuLinksHover}>
                                                 {text}
-                                            </Link>
+                                            </a>
                                         </li>
                                     ))
                                 }
@@ -182,9 +182,9 @@ export default function Footer() {
                                         ["Privacy Policy", "/privacy-policy"]
                                     ].map(([text, link], i) => (
                                         <li key={i}>
-                                            <Link href={link} className="text-[#838383] text-[16px] leading-tight">
+                                            <a href={link} className="text-[#838383] text-[16px] leading-tight">
                                                 {text}
-                                            </Link>
+                                            </a>
                                         </li>
                                     ))
                                 }

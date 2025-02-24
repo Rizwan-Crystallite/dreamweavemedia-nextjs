@@ -22,7 +22,7 @@
     --destructive: 0 100% 30%;
     --destructive-foreground: 180 5% 90%;
     --border: 180 30% 50%;
-    --input: 180 30% 18%;
+    --input: 180 81.5% 53.3%;
     --ring: 180 81.5% 53.3%;
     --radius: 99999px;
   }
@@ -45,7 +45,7 @@
     --destructive: 0 100% 30%;
     --destructive-foreground: 180 5% 90%;
     --border: 180 30% 18%;
-    --input: 180 30% 18%;
+    --input: 180 81.5% 53.3%;
     --ring: 180 81.5% 53.3%;
     --radius: 99999px;
   }
@@ -69,18 +69,12 @@
     overflow: hidden;
     will-change: transform;
   }
+
 }
 
-
-
-@layer base {
-  * {
-    @apply border-border outline-ring/50;
-
+@layer components {
+  
+  .autofill-input:-internal-autofill-selected {
+    @apply bg-transparent;
   }
-  body {
-    @apply bg-background text-foreground;
-
-  }
-
 }
