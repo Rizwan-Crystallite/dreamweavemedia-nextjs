@@ -51,7 +51,7 @@ const data = [
 export default function Locations() {
     return (
         <section>
-            <div className="pt-[100px] lg:pt-[300px] pb-[100px] relative z-[2]" id="process">
+            <div className="pt-[100px] lg:pt-[300px] pb-[100px] relative z-[2]">
                 <motion.div
                     viewport={{ once: true }}
                     initial={{ opacity: 0 }}

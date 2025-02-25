@@ -74,12 +74,12 @@ export default {
 			},
 			keyframes: {
 				"text-stroke": {
-					"0%, 100%": { transform: "translateX(20px)" },
-					"50%": { transform: "translateY(-20px)" },
+					"0%, 100%": { transform: "scale(1)" },
+					"50%": { transform: "scale(0.9)" },
 				},
 			},
 			animation: {
-				"text-stroke": "text-stroke 5s linear infinite",
+				"text-stroke": "text-stroke 8s linear infinite",
 			},
 		}
 	},
