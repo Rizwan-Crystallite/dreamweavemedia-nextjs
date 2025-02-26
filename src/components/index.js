@@ -19,6 +19,8 @@ import Footer from "./footer/footer"
 import Counter from "./counter/counter"
 import { TextScroll } from "./text-scroll/text-scroll"
 import FrontEndForm from "./FrontEndForm"
+import KeyBenefits from "./key-benefits/key-benefits"
+import LatestCaseStudy from "./case-studies/latest/latest"
 
 export {
     Header,
@@ -39,5 +41,7 @@ export {
     Footer,
     Counter,
     TextScroll,
-    FrontEndForm
+    FrontEndForm,
+    KeyBenefits,
+    LatestCaseStudy
 }

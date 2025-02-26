@@ -9,6 +9,7 @@ import { motion } from "framer-motion"
 import Image from "next/image"
 // Magic UI
 import { BlurFade } from "@/components/magicui/blur-fade"
+// Components
 import { Button } from "@/components"
 
 export default function WhyChoose() {

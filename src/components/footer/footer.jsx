@@ -32,7 +32,7 @@ const socials = [
 export default function Footer() {
     return (
         <section>
-            <div className="border-t-2 border-[#34363D] py-[40px] md:py-[80px]">
+            <div className="border-t-2 border-[#34363D] py-[40px] md:py-[80px] relative z-[2]">
                 <div className="container">
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-x-5 gap-y-10">
                         <div>

@@ -70,11 +70,27 @@
     will-change: transform;
   }
 
+  .gray-liner-border {
+    border-image-source: linear-gradient(90deg, rgba(129, 137, 155, 1) 0%, rgba(44, 47, 53, 1) 100%);
+    border-image-slice: 1;
+  }
+
+  .primary-liner-border {
+    border-image-source: linear-gradient(90deg, rgba(7,8,12,1) 0%, rgba(39,233,233,1) 50%, rgba(0,0,0,1) 100%);
+    border-image-slice: 1;
+  }
 }
 
-@layer components {
-  
-  .autofill-input:-internal-autofill-selected {
-    @apply bg-transparent;
+
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+
   }
+  body {
+    @apply bg-background text-foreground;
+
+  }
+
 }
