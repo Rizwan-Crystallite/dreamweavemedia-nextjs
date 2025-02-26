@@ -34,9 +34,7 @@ export default function KeyBenefits({ data }) {
                                 <div key={i} className="border-primary rounded-2xl border-2 py-12 px-4 sm:px-6 2xl:px-8">
                                     <BlurFade delay={0.5 * i} inView>
                                         <div dangerouslySetInnerHTML={{ __html: icon }} />
-                                        <h3 className="text-[25px] sm:text-[30px] lg:text-[35px] text-primary font-bold leading-tight mb-5 mt-8">
-                                            {title}
-                                        </h3>
+                                        <h3 className="text-[25px] sm:text-[30px] lg:text-[35px] text-primary font-bold leading-tight mb-5 mt-8" dangerouslySetInnerHTML={{ __html: title }} />
                                         <p className="text-[16px] leading-relaxed text-white">
                                             {para}
                                         </p>

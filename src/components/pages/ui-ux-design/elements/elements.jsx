@@ -2,8 +2,8 @@
 // Media
 import shade1 from "media/shade-1.webp"
 import shade2 from "media/shade-2.webp"
-import e1 from "media/web-development/element-1.webp"
-import e2 from "media/web-development/element-2.webp"
+import e1 from "media/ui-ux-design/element-1.webp"
+import e2 from "media/ui-ux-design/element-2.webp"
 // Framer
 import { motion } from "framer-motion"
 // Next
@@ -14,7 +14,7 @@ import { BlurFade } from "@/components/magicui/blur-fade"
 export default function Elements() {
     return (
         <section>
-            <div className="pt-[100px] pb-[100px] relative z-[2]">
+            <div className="pt-[100px] relative z-[2]">
                 <motion.div
                     viewport={{ once: true }}
                     initial={{ opacity: 0 }}
@@ -30,7 +30,7 @@ export default function Elements() {
                             </span>
                             <h3 className="text-[30px] sm:text-[40px] lg:text-[50px] xl:text-[60px] leading-tight font-bold md:absolute md:top-0 md:bottom-0 md:h-full md:flex md:items-center md:right-0 md:left-0 max-w-[1000px]">
                                 <span>
-                                    Let's have a look at some of <span className="text-primary">our successful</span> projects.
+                                    Building a seamless <span className="text-primary">Experience</span> for both retailers and <span className="text-primary">end-users</span> with <span className="text-primary">UI/UX design</span>
                                 </span>
                             </h3>
                         </div>
@@ -73,7 +73,7 @@ export default function Elements() {
                             <BlurFade delay={0.5} inView>
                                 <div className="xl:max-w-[600px] ml-auto grid grid-cols-1 gap-y-4 text-[16px] leading-relaxed">
                                     <p className="text-[18px] xl:text-[20px] leading-normal font-semibold">
-                                        We offer every web development service you need to build a full-blown web-based product, such as:
+                                        21% Conversion Increase With Product and UI Design Services for Mobile App!
                                     </p>
                                     <ul className="leading-relaxed grid grid-cols-1 gap-y-2.5 list-image-li-dot list-inside">
                                         {
