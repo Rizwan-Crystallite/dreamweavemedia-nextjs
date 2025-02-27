@@ -65,7 +65,7 @@ export default function OurWork() {
                                     Portfolio
                                 </span>
                                 <h3 className="text-[40px] md:text-[50px] lg:text-[60px] leading-tight font-bold sm:absolute sm:top-7 lg:top-14 xl:top-24 mb-10">
-                                    Our <span className="text-primary">Animation Project</span>!
+                                    Our <span className="text-primary">Work</span>!
                                 </h3>
                             </div>
                         </BlurFade>

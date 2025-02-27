@@ -44,8 +44,8 @@ export default function Footer() {
                                 {
                                     [
                                         ["About Us", "/about"],
-                                        ["Testimonial", "#testimonial"],
-                                        ["Process", "#process"],
+                                        ["Testimonial", "/#testimonial"],
+                                        ["Process", "/#process"],
                                         ["Contact", "/contact"]
                                     ].map(([text, link], i) => (
                                         <li key={i}>
@@ -68,7 +68,7 @@ export default function Footer() {
                                         ["Blog", "/blog"],
                                         ["Events", "/events"],
                                         ["Press Release", "press-release"],
-                                        ["Work", "#wokr"]
+                                        ["Work", "/#wokr"]
                                     ].map(([text, link], i) => (
                                         <li key={i}>
                                             <a href={link} className={menuLinksHover}>
@@ -109,8 +109,8 @@ export default function Footer() {
                             <ul className={menuLinks}>
                                 {
                                     [
-                                        ["Case Studies", "#case-studies"],
-                                        ["Partners", "#partners"],
+                                        ["Case Studies", "/case-studies"],
+                                        ["Partners", "/#partners"],
                                         ["Manifesto", "/"],
                                         ["Careers", "/careers"]
                                     ].map(([text, link], i) => (

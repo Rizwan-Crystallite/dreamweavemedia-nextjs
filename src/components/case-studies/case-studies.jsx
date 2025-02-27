@@ -67,7 +67,7 @@ export default function CaseStudies() {
                         <BlurFade delay={0.5 * 2} inView>
                             <Button asChild variant="linkIcon2" className="hidden xl:block">
                                 <div dangerouslySetInnerHTML={{
-                                    __html: `<a href='javascript:;'>
+                                    __html: `<a href='/case-studies'>
                                         <span>View All</span>
                                         <div class='inline-flex items-center justify-center border-2 border-white rounded-full w-[40px] h-[40px]'>
                                             <img src='/right-arrow.svg' alt="Dream Weave Media" width='23' height='22' />
