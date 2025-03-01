@@ -20,7 +20,7 @@ const data = [
         title: "Roommate Matching Social Platform",
         para: "Roommate Matching Social Platform tackles the age-old challenge of Roommate Matching for college students. With this feature-rich social network, students will now have the ability to leverage a suite of tools and A.I. to streamline, simplify and improve the roommate selection process, leading to more successful relationships.",
         project: project1,
-        link: "javascript:;"
+        link: "/case-studies/food-website-design-and-development"
     },
     {
         category: "Web Development",
@@ -28,7 +28,7 @@ const data = [
         title: "Roommate Matching Social Platform",
         para: "Roommate Matching Social Platform tackles the age-old challenge of Roommate Matching for college students. With this feature-rich social network, students will now have the ability to leverage a suite of tools and A.I. to streamline, simplify and improve the roommate selection process, leading to more successful relationships.",
         project: project2,
-        link: "javascript:;"
+        link: "/case-studies/food-website-design-and-development"
     },
     {
         category: "Web Development",
@@ -36,7 +36,7 @@ const data = [
         title: "Roommate Matching Social Platform",
         para: "Roommate Matching Social Platform tackles the age-old challenge of Roommate Matching for college students. With this feature-rich social network, students will now have the ability to leverage a suite of tools and A.I. to streamline, simplify and improve the roommate selection process, leading to more successful relationships.",
         project: project1,
-        link: "javascript:;"
+        link: "/case-studies/food-website-design-and-development"
     },
     {
         category: "Web Development",
@@ -44,7 +44,7 @@ const data = [
         title: "Roommate Matching Social Platform",
         para: "Roommate Matching Social Platform tackles the age-old challenge of Roommate Matching for college students. With this feature-rich social network, students will now have the ability to leverage a suite of tools and A.I. to streamline, simplify and improve the roommate selection process, leading to more successful relationships.",
         project: project2,
-        link: "javascript:;"
+        link: "/case-studies/food-website-design-and-development"
     }
 ]
 

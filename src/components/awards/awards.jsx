@@ -74,7 +74,7 @@ export default function Awards() {
                             <div key={i} className="grow-0 shrink-0 basis-auto pl-4">
                                 <div className="w-[300px] sm:w-[360px] relative bg-[linear-gradient(270deg,_#2C2F35_0%,_rgba(35,_37,_40,_0)_98.83%)] border-2 gray-liner-border h-[240px] flex flex-col justify-center px-7 sm:px-14">
                                     <Image src={logo} alt="Dream Weave Media" className="mb-5" />
-                                    <p className="text-[#757575] text-[16px]">{text}</p>
+                                    <p className="text-[#757575] text-[16px] leading-relaxed">{text}</p>
                                 </div>
                             </div>
                         ))
