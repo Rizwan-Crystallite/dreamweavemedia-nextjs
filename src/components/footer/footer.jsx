@@ -177,7 +177,7 @@ export default function Footer() {
                             <ul className="flex flex-col sm:divide-x-2 sm:flex-row items-center sm:divide-[#838383] justify-center sm:[&_li:first-child]:pr-2 sm:[&_li:nth-child(2)]:px-2 sm:[&_li:last-child]:pl-2">
                                 {
                                     [
-                                        ["2024 © Dream Weave Media", ""],
+                                        ["2025 © Dream Weave Media", ""],
                                         ["Site Map", "/site-map"],
                                         ["Privacy Policy", "/privacy-policy"]
                                     ].map(([text, link], i) => (

@@ -12,35 +12,35 @@ import { AutoScrollSlider } from "@/components"
 
 const data = [
     {
-        text: "Recognized Among Top Animation Companies 2024",
+        text: "Recognized Among Top Animation Companies 2025",
         logo: one
     },
     {
-        text: "Recognized Among Top Animation Companies 2024",
+        text: "Recognized Among Top Animation Companies 2025",
         logo: two
     },
     {
-        text: "Recognized Among Top Animation Companies 2024",
+        text: "Recognized Among Top Animation Companies 2025",
         logo: three
     },
     {
-        text: "Recognized Among Top Animation Companies 2024",
+        text: "Recognized Among Top Animation Companies 2025",
         logo: four
     },
     {
-        text: "Recognized Among Top Animation Companies 2024",
+        text: "Recognized Among Top Animation Companies 2025",
         logo: one
     },
     {
-        text: "Recognized Among Top Animation Companies 2024",
+        text: "Recognized Among Top Animation Companies 2025",
         logo: two
     },
     {
-        text: "Recognized Among Top Animation Companies 2024",
+        text: "Recognized Among Top Animation Companies 2025",
         logo: three
     },
     {
-        text: "Recognized Among Top Animation Companies 2024",
+        text: "Recognized Among Top Animation Companies 2025",
         logo: four
     }
 ]
