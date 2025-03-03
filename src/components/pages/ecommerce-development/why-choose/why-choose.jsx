@@ -49,7 +49,7 @@ export default function WhyChoose() {
                                 </div>
                             </BlurFade>
                             <BlurFade delay={0.5 * 3} inView>
-                                <ul className="text-[14px] xl:text-[16px] leading-relaxed grid grid-cols-1 sm:grid-cols-2 gap-2.5 mb-5">
+                                <ul className="text-[14px] xl:text-[16px] leading-relaxed grid lg:hidden grid-cols-1 sm:grid-cols-2 gap-2.5 mb-5">
                                     {
                                         ["1300+ Successful Projects", "15+ Years of Experience", "350+ Designers and Developers", "User Acquisition Modeling", "Proven Expertise in Cutting-Edge Technologies", "MVP Architecture Design"].map((e, i) => (
                                             <li key={i} className="flex items-center gap-2.5">
