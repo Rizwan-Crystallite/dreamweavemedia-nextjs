@@ -41,18 +41,25 @@ export default function WhyChoose() {
                             <BlurFade delay={0.5 * 2} inView>
                                 <div className="xl:max-w-[600px] grid grid-cols-1 gap-y-4 text-[16px] leading-relaxed mb-5">
                                     <p className="text-[18px] xl:text-[20px] leading-normal font-semibold">
-                                        Design an engaging product that is easy-to-use, attractive and functional.
+                                    First Impression Matters. Don’t Let Bad Design Chase Your Customers Away.
                                     </p>
                                     <p>
-                                        You only have one chance to make a first impression, so make the right one. Our flexible and adaptable approach to UI/UX design allows us to simplify complex processes and deliver meaningful user experiences.
+                                    We create UI/UX that’s simple, clear, and designed to convert. From easy navigation to fast-loading pages, we make sure your visitors stay, explore, and take action. Because great design isn’t just about looks, it’s about results.
                                     </p>
                                 </div>
                             </BlurFade>
                             <BlurFade delay={0.5 * 3} inView>
                                 <ul className="text-[14px] xl:text-[16px] leading-relaxed grid grid-cols-1 sm:grid-cols-2 gap-2.5 mb-5">
                                     {
-                                        ["1300+ Successful Projects", "15+ Years of Experience", "350+ Designers and Developers", "User Acquisition Modeling", "Proven Expertise in Cutting-Edge Technologies", "MVP Architecture Design"].map((e, i) => (
-                                            <li key={i} className="flex items-center gap-2.5">
+                                        [
+                                            "1,300+ successful projects – Designs that drive results.",
+                                            "70%+ average bounce rate reduction – Keeping visitors engaged.",
+                                            "5 seconds or less load time – Because speed matters.",
+                                            "20+ industries served – Experience across multiple fields.",
+                                            "92% client retention rate – Happy clients, lasting partnerships.",
+                                            "User-focused, conversion-driven – Because design should do more than just look good.",
+                                        ].map((e, i) => (
+                                            <li key={i} className="flex items-start gap-2.5">
                                                 <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M13.8043 0.69031C14.5442 0.263145 15.4558 0.263145 16.1957 0.69031L26.7947 6.80969C27.5346 7.23686 27.9904 8.02629 27.9904 8.88062V21.1194C27.9904 21.9737 27.5346 22.7631 26.7947 23.1903L16.1957 29.3097C15.4558 29.7369 14.5442 29.7369 13.8043 29.3097L3.20527 23.1903C2.4654 22.7631 2.00962 21.9737 2.00962 21.1194V8.88062C2.00962 8.02629 2.4654 7.23686 3.20527 6.80969L13.8043 0.69031Z" fill="#92F3F4" />
                                                     <path d="M10 16.0047L12.9953 19L20.9954 11" stroke="#1B2025" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />

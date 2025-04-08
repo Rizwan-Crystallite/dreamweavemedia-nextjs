@@ -47,22 +47,22 @@ export default function Hero() {
             <div className="bg-black pt-[150px] pb-[70px] xl:pb-[100px] xl:pt-0 xl:h-screen flex flex-col justify-end relative">
                 <Image src={bg} alt="Dream Weave Media" fill priority className="object-cover object-center z-[1]" />
                 <div className="container relative z-10">
-                    <div className="max-w-[780px]">
+                    <div className="max-w-[900px]">
                         <BlurFade delay={0.5} inView>
-                            <h1 className="text-[28px] sm:text-[50px] md:text-[65px] lg:text-[75px] font-bold leading-snug sm:leading-tight mb-3">
-                                The Best <span className="text-primary">Website</span> & <span className="text-primary">Web Development</span> Company.
+                            <h1 className="text-[28px] md:text-[50px] lg:text-[65px] font-bold leading-snug sm:leading-tight mb-3">
+                                The Top <span className="text-primary">Website</span> & <span className="text-primary">Web Development</span> Company for Your Business Growth.
                             </h1>
                         </BlurFade>
                         <BlurFade delay={0.5 * 2} inView>
                             <p className="text-[16px] leading-relaxed mb-5">
-                                We design and build industry-leading web-based products that bring value to your customers, delivered with compelling UX.
+                            We design and develop high-quality web solutions that help you stand out, attract customers, and deliver an exceptional user experience.
                             </p>
                         </BlurFade>
                         <BlurFade delay={0.5 * 3} inView>
                             <Button asChild variant="linkIcon2">
                                 <div dangerouslySetInnerHTML={{
                                     __html: `<a href='javascript:;'>
-                                    <span>Let’s Discuss</span>
+                                    <span>Let’s Talk</span>
                                     <div class='inline-flex items-center justify-center border-2 border-white rounded-full w-[40px] h-[40px]'>
                                         <img src='/right-arrow.svg' alt="Dream Weave Media" width='23' height='22' />
                                     </div>

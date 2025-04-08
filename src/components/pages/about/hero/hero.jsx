@@ -55,13 +55,13 @@ export default function Hero() {
                         </BlurFade>
                         <BlurFade delay={0.5 * 2} inView>
                             <p className="text-[16px] leading-relaxed mb-5">
-                                Dream Weave Media is an enterprise software development company helping startups and organizations build and implement digital transformation solutions tailored to their demand and needs.
+                            We’re a team that helps startups and businesses bring their digital ideas to life. From custom software to full-scale digital solutions, we’re here to make your transformation simple and tailored to what you need.
                             </p>
                         </BlurFade>
                         <BlurFade delay={0.5 * 3} inView>
                             <ul className="text-[14px] md:text-[16px] leading-relaxed grid grid-cols-1 sm:grid-cols-2 gap-2.5 mb-5 max-w-[580px]">
                                 {
-                                    ["Tech Integrated Solutions", "Client Focused Approach", "Disruptive Innovation", "Digital Transformation Partner"].map((e, i) => (
+                                    ["Smart Tech Solutions", "People-First Approach", "Bold Innovation", "Trusted Digital Partner"].map((e, i) => (
                                         <li key={i} className="flex items-center gap-2.5">
                                             <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M13.8043 0.69031C14.5442 0.263145 15.4558 0.263145 16.1957 0.69031L26.7947 6.80969C27.5346 7.23686 27.9904 8.02629 27.9904 8.88062V21.1194C27.9904 21.9737 27.5346 22.7631 26.7947 23.1903L16.1957 29.3097C15.4558 29.7369 14.5442 29.7369 13.8043 29.3097L3.20527 23.1903C2.4654 22.7631 2.00962 21.9737 2.00962 21.1194V8.88062C2.00962 8.02629 2.4654 7.23686 3.20527 6.80969L13.8043 0.69031Z" fill="#92F3F4" />

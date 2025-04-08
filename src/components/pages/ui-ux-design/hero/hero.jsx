@@ -47,15 +47,16 @@ export default function Hero() {
             <div className="bg-black pt-[150px] pb-[70px] xl:pb-[100px] xl:pt-0 xl:h-screen flex flex-col justify-end relative">
                 <Image src={bg} alt="Dream Weave Media" fill priority className="object-cover object-center z-[1]" />
                 <div className="container relative z-10">
-                    <div className="max-w-[820px]">
+                    <div className="max-w-[1100px]">
                         <BlurFade delay={0.5} inView>
-                            <h1 className="text-[30px] sm:text-[50px] md:text-[65px] lg:text-[70px] font-bold leading-snug sm:leading-tight mb-3">
-                                Shaping Experiences with <span className="text-primary">Top-Rated UI/UX</span> Design Services!
+                            <span className="block text-[23px] lg:text-[28px] text-primary font-bold leading-tight mb-5">75% of users judge a business based on its design.</span>
+                            <h1 className="text-[30px] sm:text-[50px] md:text-[60px] font-bold leading-snug sm:leading-tight mb-3">
+                             With our <span className="text-primary">Top-Rated UI/UX</span> Services Make yours unforgettable.
                             </h1>
                         </BlurFade>
                         <BlurFade delay={0.5 * 2} inView>
                             <p className="text-[16px] leading-relaxed mb-5">
-                                Do you want to boost your digital presence with top-class UI/UX design? Dream Weave Media is where you must start this journey. Your website doesn’t just have to look good, it should work right too and that exactly is what we do for you.
+                            Users decide in just 3 seconds whether to stay on your website or leave. If your design is confusing, slow, or unappealing, they’ll move on without a second thought. A good UI/UX isn’t just about looks, it’s about keeping visitors engaged, guiding them smoothly, and making sure they take action. At Dream Weave Media we design experiences that grab attention, build trust, and turn visitors into customers
                             </p>
                         </BlurFade>
                         <BlurFade delay={0.5 * 3} inView>

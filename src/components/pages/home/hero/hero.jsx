@@ -47,20 +47,20 @@ export default function Hero() {
                 <div className="container relative z-10">
                     <div className="max-w-[960px]">
                         <BlurFade delay={0.5} inView>
-                            <h1 className="text-[28px] sm:text-[45px] md:text-[60px] lg:text-[75px] font-bold leading-snug sm:leading-tight mb-3">
-                                Connecting <span className="text-primary">BRANDS</span> With <span className="text-primary">GLOBAL</span> Audiences
+                            <h1 className="text-[23px] sm:text-[35px] md:text-[50px] lg:text-[65px] font-bold leading-snug sm:leading-tight mb-3">
+                            We Build <span className="text-primary">Digital Experiences </span> That Move Markets 
                             </h1>
                         </BlurFade>
                         <BlurFade delay={0.5 * 2} inView>
-                            <p className="text-[16px] leading-relaxed mb-5">
-                                You have an idea, we have the talent and resources to turn it into a reality. Dream Weave Media is a globally recognized digital agency elevating brands through ground-breaking user experience and disruptive digital products.
+                            <p className="text-[14px] md:text-[16px] leading-relaxed mb-5">
+                            At Dream Weave Media, Our job is to connect your brand with a global audience. We provide businesses with access to specialists, expertise, tools, and data-driven strategies. By outsourcing digital marketing to us, you can save time and resources and redirect them to core business functions.
                             </p>
                         </BlurFade>
                         <BlurFade delay={0.5 * 3} inView>
                             <Button asChild variant="linkIcon2">
                                 <div dangerouslySetInnerHTML={{
                                     __html: `<a href='javascript:;'>
-                                    <span>Let’s Discuss</span>
+                                    <span>Talk to Us!</span>
                                     <div class='inline-flex items-center justify-center border-2 border-white rounded-full w-[40px] h-[40px]'>
                                         <img src='/right-arrow.svg' alt="Dream Weave Media" width='23' height='22' />
                                     </div>

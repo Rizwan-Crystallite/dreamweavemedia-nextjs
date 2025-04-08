@@ -1,3 +1,5 @@
+// Next
+import Image from "next/image"
 // Magic UI
 import { BlurFade } from "@/components/magicui/blur-fade"
 // Media
@@ -6,7 +8,26 @@ import two from "media/our-clients/2.webp"
 import three from "media/our-clients/3.webp"
 import four from "media/our-clients/4.webp"
 import five from "media/our-clients/5.webp"
-import Image from "next/image"
+import six from "media/our-clients/6.png"
+import seven from "media/our-clients/7.png"
+import eight from "media/our-clients/8.png"
+import nine from "media/our-clients/9.png"
+import ten from "media/our-clients/10.png"
+import eleven from "media/our-clients/11.png"
+import twelve from "media/our-clients/12.png"
+import thirteen from "media/our-clients/13.png"
+import fourteen from "media/our-clients/14.png"
+import fifteen from "media/our-clients/15.png"
+import sixteen from "media/our-clients/16.png"
+import seventeen from "media/our-clients/17.png"
+import eighteen from "media/our-clients/18.png"
+import nineteen from "media/our-clients/19.png"
+import twenty from "media/our-clients/20.png"
+import twentyone from "media/our-clients/21.png"
+import twentytwo from "media/our-clients/22.png"
+import twentythree from "media/our-clients/23.png"
+import twentyfour from "media/our-clients/24.png"
+import twentyfive from "media/our-clients/25.png"
 
 export default function OurClients() {
     return (
@@ -27,7 +48,7 @@ export default function OurClients() {
                     </BlurFade>
                     <div className="flex flex-wrap items-center justify-center gap-5 sm:gap-7 md:gap-10">
                         {
-                            [one, two, three, four, five, five, four, three, two, one, one, two, three, four, five].map((e, i) => (
+                            [six,seven,eight,nine,ten,eleven,twelve,thirteen,fourteen,fifteen,sixteen,seventeen,eighteen,nineteen,twenty,twentyone,twentytwo,twentythree,twentyfour,twentyfive].map((e, i) => (
                                 <div key={i} className="basis-1/5 border-2 border-gray-500 h-full transition-all duration-300 hover:border-primary p-3 rounded-lg group">
                                     <BlurFade delay={0.5 * 2} inView>
                                         <Image src={e} alt="Dream Weave Media" className="xs:max-w-[70px] transition-all duration-300 grayscale group-hover:grayscale-0 mx-auto" />

@@ -20,7 +20,7 @@ import Image from "next/image"
 const data = [
     {
         img: one,
-        title: "Software Developer"
+        title: "Digital Branding"
     },
     {
         img: two,
@@ -28,27 +28,19 @@ const data = [
     },
     {
         img: three,
-        title: "Backend Developer"
+        title: "Web Development"
     },
     {
         img: four,
-        title: "SEO Expert"
+        title: "Ecommerce Development"
     },
     {
         img: five,
-        title: "Digital Marketer"
+        title: "Video Animation"
     },
     {
         img: six,
-        title: "Content Writer"
-    },
-    {
-        img: seven,
-        title: "Project Manager"
-    },
-    {
-        img: eight,
-        title: "Tech Support"
+        title: "Digital Marketing"
     }
 ]
 
@@ -71,12 +63,12 @@ export default function OurTeam() {
                             </span>
                             <h3 className="text-[35px] sm:text-[40px] md:text-[45px] lg:text-[50px] xl:text-[60px] leading-snug sm:leading-tight font-bold md:absolute md:top-0 md:bottom-0 md:left-0 md:right-0 max-w-[1000px] flex items-center h-full">
                                 <span>
-                                    Our <span className="text-primary">Leadership</span>!
+                                    Our <span className="text-primary">Services</span>!
                                 </span>
                             </h3>
                         </div>
                     </BlurFade>
-                    <div className="grid grid-cols-4 md:flex gap-x-5 mt-10">
+                    <div className="grid grid-cols-4 md:flex justify-center gap-x-5 mt-10">
                         {
                             data.map(({ img, title }, i) => (
                                 <div key={i} className="md:basis-[12.5%] h-[400px] group rounded-full relative z-[1] overflow-hidden [&:nth-child(even)]:mt-10">

@@ -3,6 +3,14 @@ import one from "media/our-work/1.webp"
 import two from "media/our-work/2.webp"
 import three from "media/our-work/3.webp"
 import four from "media/our-work/4.webp"
+import five from "media/our-work/5.png"
+import six from "media/our-work/6.png"
+import seven from "media/our-work/7.png"
+import eight from "media/our-work/8.png"
+import nine from "media/our-work/9.png"
+import ten from "media/our-work/10.png"
+import eleven from "media/our-work/11.png"
+import twelve from "media/our-work/12.png"
 // Next
 import Image from "next/image"
 // Components
@@ -12,45 +20,55 @@ import { BlurFade } from "@/components/magicui/blur-fade"
 
 const data = [
     {
-        img: one,
-        title: "Adidas",
-        para: "Roommate Matching Social Platform tackles the age-old challenge of Roommate Matching for college students."
+        img: twelve,
+        title: "Eurotunnel le shuttle",
+        para: "Built a bright and easy-to-use website for Eurotunnel le shuttle so travelers can learn about crossing the Channel by train. Our design makes booking trips simple and fast for everyone."
     },
     {
-        img: two,
-        title: "IKEA",
-        para: "Roommate Matching Social Platform tackles the age-old challenge of Roommate Matching for college students."
-    },
-    {
-        img: three,
-        title: "Pizza",
-        para: "Roommate Matching Social Platform tackles the age-old challenge of Roommate Matching for college students."
-    },
-    {
-        img: four,
-        title: "KFC",
-        para: "Roommate Matching Social Platform tackles the age-old challenge of Roommate Matching for college students."
-    },
-    {
-        img: one,
-        title: "Adidas",
-        para: "Roommate Matching Social Platform tackles the age-old challenge of Roommate Matching for college students."
-    },
-    {
-        img: two,
-        title: "IKEA",
-        para: "Roommate Matching Social Platform tackles the age-old challenge of Roommate Matching for college students."
+        img: five,
+        title: "Ford",
+        para: "Helped Ford share their newest car models and exciting stories online in a friendly way. By creating eye-catching pages, we made it fun for people to explore their vehicles and features."
     },
     {
         img: three,
-        title: "Pizza",
-        para: "Roommate Matching Social Platform tackles the age-old challenge of Roommate Matching for college students."
+        title: "Le Kilt",
+        para: "Teamed up with Le Kilt to showcase their stylish clothing collections in a modern, easy-to-browse layout. Our work helps shoppers see how each piece can fit into their own unique style."
     },
     {
-        img: four,
-        title: "KFC",
-        para: "Roommate Matching Social Platform tackles the age-old challenge of Roommate Matching for college students."
-    }
+        img: six,
+        title: "Hilliard Law",
+        para: "Created a clear and helpful website for Hilliard Law so clients can quickly find the legal answers they need. Our simple design makes it easier to understand services and get the right support."
+    },
+    {
+        img: seven,
+        title: "GAP",
+        para: "Worked with GAP to share comfy and cool clothing options that everyone can enjoy. By using happy images and simple messages, we showed how GAP brings people together with fun fashion."
+    },
+    {
+        img: eight,
+        title: "Founder",
+        para: "Helped Founder support new businesses by building a place where ideas can grow and turn into success. Our tools make it easier for budding entrepreneurs to learn, plan, and launch their big dreams."
+    },
+    {
+        img: three,
+        title: "Magnet",
+        para: "Partnered with Magnet to attract more customers by designing user-friendly pages that show off their best products. Our easy layout and clear details keep visitors interested and ready to buy."
+    },
+    {
+        img: nine,
+        title: "Payoneer",
+        para: "Worked with Payoneer to make sending and receiving money around the world feel safe and simple. Our design shows people how easy it is to manage their funds with just a few clicks."
+    },
+    {
+        img: ten,
+        title: "City Of Norfolk",
+        para: "Helped the City Of Norfolk share news, events, and stories in a fun, friendly way. Our clear design makes it easy for neighbors to stay connected and learn about local happenings."
+    },
+    {
+        img: eleven,
+        title: "Freelancer",
+        para: "We joined forces with Freelancer to connect skilled workers with the jobs they love. Our improvements make it simple for people to show off their talents and find the right projects fast."
+    },
 ]
 
 export default function OurWork() {

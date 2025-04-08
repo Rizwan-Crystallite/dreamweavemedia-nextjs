@@ -40,19 +40,10 @@ export default function Elements() {
                             <BlurFade delay={0.5 * 2} inView>
                                 <div className="xl:max-w-[600px] grid grid-cols-1 gap-y-4 text-[16px] leading-relaxed">
                                     <p className="text-[18px] xl:text-[20px] leading-normal font-semibold">
-                                        We offer every web development service you need to build a full-blown web-based product, such as:
+                                    Why Choose Video Animation?
                                     </p>
-                                    <ul className="leading-relaxed grid grid-cols-1 gap-y-2.5 list-image-li-dot list-inside">
-                                        {
-                                            ["Website Development", "Web Application Development", "eCommerce Solutions Development", "Dedicated Content Management System Development", "No-code Development & Low-code Development", "Ideation - Market Research - Wireframing - Prototyping", "Project Management - UI Design - UX Design - Coding - QA Testing", "Cybersecurity - Consulting - Publishing - Maintenance - Support"].map((e, i) => (
-                                                <li key={i}>
-                                                    {e}
-                                                </li>
-                                            ))
-                                        }
-                                    </ul>
                                     <p>
-                                        <strong>The role of a web development company is to seek and build solutions that can best fulfill the client’s unique business goals.</strong> With the right web development services, you’ll be able to build a successful product from scratch or increase the performance of an existing one.
+                                    Videos are not only fun to watch—they are proven to boost understanding. Nearly 90% of information is retained when presented with a video, compared to just 10% when read as text. Our animations break down complex ideas into clear, simple visuals that your audience will appreciate.
                                     </p>
                                 </div>
                             </BlurFade>
@@ -73,19 +64,10 @@ export default function Elements() {
                             <BlurFade delay={0.5} inView>
                                 <div className="xl:max-w-[600px] ml-auto grid grid-cols-1 gap-y-4 text-[16px] leading-relaxed">
                                     <p className="text-[18px] xl:text-[20px] leading-normal font-semibold">
-                                        21% Conversion Increase With Product and UI Design Services for Mobile App!
+                                    Simple, Creative, and Effective Video Solutions
                                     </p>
-                                    <ul className="leading-relaxed grid grid-cols-1 gap-y-2.5 list-image-li-dot list-inside">
-                                        {
-                                            ["Website Development", "Web Application Development", "eCommerce Solutions Development", "Dedicated Content Management System Development", "No-code Development & Low-code Development", "Ideation - Market Research - Wireframing - Prototyping", "Project Management - UI Design - UX Design - Coding - QA Testing", "Cybersecurity - Consulting - Publishing - Maintenance - Support"].map((e, i) => (
-                                                <li key={i}>
-                                                    {e}
-                                                </li>
-                                            ))
-                                        }
-                                    </ul>
                                     <p>
-                                        <strong>The role of a web development company is to seek and build solutions that can best fulfill the client’s unique business goals.</strong> With the right web development services, you’ll be able to build a successful product from scratch or increase the performance of an existing one.
+                                    Simple and clear communication is key. Our video animation services are built on the idea that simple language and engaging visuals lead to better understanding and higher retention. We use basic language, clear figures, and real data to create content that resonates with your viewers.
                                     </p>
                                 </div>
                             </BlurFade>

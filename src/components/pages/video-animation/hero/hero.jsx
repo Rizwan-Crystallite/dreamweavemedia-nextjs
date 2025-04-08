@@ -50,12 +50,12 @@ export default function Hero() {
                     <div className="max-w-[815px]">
                         <BlurFade delay={0.5} inView>
                             <h1 className="text-[29px] sm:text-[48px] md:text-[62px] lg:text-[70px] font-bold leading-snug sm:leading-tight mb-3">
-                                Convert Your Message into Magic with <br className="hidden sm:block" /> <span className="text-primary">Dream Weave Media</span>
+                            Bring Your Story to Life with Captivating <br className="hidden sm:block" /> <span className="text-primary">Video Animations</span>
                             </h1>
                         </BlurFade>
                         <BlurFade delay={0.5 * 2} inView>
                             <p className="text-[16px] leading-relaxed mb-5">
-                                Harness the power of toons to bring your message to life, making your viewers say “Got it!” with a little extra Dream Weave Media!
+                            We turn your ideas into engaging videos that speak directly to your audience. Studies show that viewers remember 95% of a message when they see it in motion. With over 200 projects delivered, our simple and clear approach ensures your message isn’t lost in translation. Our videos are designed to be easy to understand and help your business grow.
                             </p>
                         </BlurFade>
                         <BlurFade delay={0.5 * 3} inView>

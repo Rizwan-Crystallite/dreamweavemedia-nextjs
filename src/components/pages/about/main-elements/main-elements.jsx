@@ -36,13 +36,13 @@ export default function MainElements() {
                             <BlurFade delay={0.5 * 2} inView>
                                 <div className="max-w-[630px] grid grid-cols-1 gap-y-4 text-[16px] leading-relaxed mb-5">
                                     <p className="text-[18px] xl:text-[20px] leading-normal font-semibold">
-                                        To be forever curious and impactful in revolutionizing technology for our partner
+                                    We stay curious and focused on building tech that makes a difference.
                                     </p>
                                     <p>
-                                        We aspire to create and deliver the best digital solutions for businesses wanting to acquire a competitive edge in the industry and serve their customers through robust digital channels.
+                                    Our mission is to create easy-to-use digital tools that help businesses grow, connect with their customers, and stay ahead of the curve.
                                     </p>
                                     <p>
-                                        Dream Weave Media aims to help startups and organizations recognize their potential and leverage optimum, highly customized solutions for business growth and ROI.
+                                    At Dream Weave Media, we work closely with startups and organizations to unlock their full potential through flexible, high-impact solutions.
                                     </p>
                                 </div>
                             </BlurFade>
@@ -83,17 +83,31 @@ export default function MainElements() {
                                     <BlurFade delay={0.5 * 2} inView>
                                         <div className="grid grid-cols-1 gap-y-4 text-[16px] leading-relaxed mb-5">
                                             <p className="text-[18px] xl:text-[20px] leading-normal font-semibold">
-                                                Transforming the world through technologies that disrupt
+                                            Shaping the future through smart, practical tech.
                                             </p>
                                             <p>
-                                                We aim to extend the scope of current technologies into societal issues and deliver back to the community for the greater good.
-                                            </p>
-                                            <p>
-                                                Our vision is to help 20 million lives with better education and employment opportunities, acquire ten active ventures, scale five businesses to exit, get listed to Nasdaq, become the most preferred workplace in Pakistan, and enter the Fortune 500 club in the next five years.
+                                                We believe technology can solve real problems. That’s why we aim to:
                                             </p>
                                         </div>
                                     </BlurFade>
                                     <BlurFade delay={0.5 * 3} inView>
+                            <ul className="text-[14px] md:text-[16px] leading-relaxed grid grid-cols-1 sm:grid-cols-2 gap-2.5 mb-5 max-w-[580px]">
+                                {
+                                    ["Improve lives through education and job access", "Build and grow standout businesses", "Reach top platforms", "Join the Fortune 500"].map((e, i) => (
+                                        <li key={i} className="flex items-start gap-2.5">
+                                            <div className="shrink-0">
+                                            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M13.8043 0.69031C14.5442 0.263145 15.4558 0.263145 16.1957 0.69031L26.7947 6.80969C27.5346 7.23686 27.9904 8.02629 27.9904 8.88062V21.1194C27.9904 21.9737 27.5346 22.7631 26.7947 23.1903L16.1957 29.3097C15.4558 29.7369 14.5442 29.7369 13.8043 29.3097L3.20527 23.1903C2.4654 22.7631 2.00962 21.9737 2.00962 21.1194V8.88062C2.00962 8.02629 2.4654 7.23686 3.20527 6.80969L13.8043 0.69031Z" fill="#92F3F4" />
+                                                <path d="M10 16.0047L12.9953 19L20.9954 11" stroke="#1B2025" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                                            </svg>
+                                            </div>
+                                            <span>{e}</span>
+                                        </li>
+                                    ))
+                                }
+                            </ul>
+                        </BlurFade>
+                                    <BlurFade delay={0.5 * 4} inView>
                                         <Button asChild variant="linkIcon2">
                                             <div dangerouslySetInnerHTML={{
                                                 __html: `<a href='javascript:;'>
@@ -128,23 +142,23 @@ export default function MainElements() {
                                 <div className="grid grid-cols-1 gap-y-4 text-[16px] leading-relaxed mb-5">
                                     <p>
                                         <span className="block mb-1 text-[18px] xl:text-[20px] leading-tight font-bold text-primary">Curiosity</span>
-                                        We encourage our team members to question the norm and explore innovative solutions to problems.
+                                        We love asking “what if” and exploring better ways to do things.
                                     </p>
                                     <p>
                                         <span className="block mb-1 text-[18px] xl:text-[20px] leading-tight font-bold text-primary">Honesty</span>
-                                        We value integrity and ethical behavior in all our interactions, both internally and externally.
+                                        We work with transparency and respect, always.
                                     </p>
                                     <p>
                                         <span className="block mb-1 text-[18px] xl:text-[20px] leading-tight font-bold text-primary">Positivity</span>
-                                        We value the power of positivity and believe that it leads to higher roductivity, creativity, and job satisfaction.
+                                        Good vibes lead to good work — simple as that.
                                     </p>
                                     <p>
                                         <span className="block mb-1 text-[18px] xl:text-[20px] leading-tight font-bold text-primary">Impact</span>
-                                        We strive to make a meaningful impact in everything we do at Dream Weave Media.
+                                        We don’t just build — we create results that matter.
                                     </p>
                                     <p>
                                         <span className="block mb-1 text-[18px] xl:text-[20px] leading-tight font-bold text-primary">Disruption</span>
-                                        We believe that disruptive innovation is the key to solving complex problems and creating new opportunities.
+                                        We challenge norms to build smarter, faster, better.
                                     </p>
                                 </div>
                             </BlurFade>

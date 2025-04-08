@@ -41,10 +41,10 @@ export default function WhyChoose() {
                             <BlurFade delay={0.5 * 2} inView>
                                 <div className="xl:max-w-[600px] grid grid-cols-1 gap-y-4 text-[16px] leading-relaxed mb-5">
                                     <p className="text-[18px] xl:text-[20px] leading-normal font-semibold">
-                                        We make videos that accomplish our clients' goals.
+                                    The Animation Difference
                                     </p>
                                     <p>
-                                        We use our experience in visual storytelling to help make the world a better place by partnering with mission-driven organizations that are making positive change. We focus on developing creative strategies that inspire your members, donors, and supporters to take action.
+                                    At Dream Weave Media, our video animations are more than just moving images—they are the bridge between your ideas and your audience. With research-backed strategies and data-driven insights, we build videos that are clear, engaging, and effective. Every frame is designed to make your message simple and memorable, helping you connect with viewers in a genuine way.
                                     </p>
                                 </div>
                             </BlurFade>
@@ -67,7 +67,7 @@ export default function WhyChoose() {
                                 <Button asChild variant="linkIcon2">
                                     <div dangerouslySetInnerHTML={{
                                         __html: `<a href='javascript:;'>
-                                            <span>Let’s Discuss</span>
+                                            <span>Contact us for a free consultation!</span>
                                             <div class='inline-flex items-center justify-center border-2 border-white rounded-full w-[40px] h-[40px]'>
                                                 <img src='/right-arrow.svg' alt="Dream Weave Media" width='23' height='22' />
                                             </div>

@@ -29,9 +29,9 @@ export default function WhyChoose() {
                             <span className="block text-[50px] sm:text-[90px] md:text-[120px] lg:text-[140px] xl:text-[170px] 2xl:text-[200px] font-bold stroke-white [-webkit-text-stroke:3px_#0BCCCF] [-webkit-text-fill-color:transparent;] opacity-10 leading-snug lg:leading-none animate-text-stroke">
                                 Choose Us!
                             </span>
-                            <h3 className="text-[40px] sm:text-[50px] lg:text-[50px] xl:text-[60px] leading-tight font-bold md:absolute md:top-0 md:bottom-0 md:h-full md:flex md:items-center md:right-0 md:left-0">
+                            <h3 className="text-[40px] sm:text-[50px] lg:text-[50px] xl:text-[60px] leading-tight font-bold md:absolute md:top-0 md:bottom-0 md:h-full md:flex md:items-center md:right-0 md:left-0 max-w-[900px]">
                                 <span>
-                                    Ecommerce <span className="text-primary">Development</span>!
+                                    <span className="text-primary">E-commerce</span>  Websites That Work Without Fail
                                 </span>
                             </h3>
                         </div>
@@ -51,7 +51,7 @@ export default function WhyChoose() {
                             <BlurFade delay={0.5 * 3} inView>
                                 <ul className="text-[14px] xl:text-[16px] leading-relaxed grid lg:hidden grid-cols-1 sm:grid-cols-2 gap-2.5 mb-5">
                                     {
-                                        ["1300+ Successful Projects", "15+ Years of Experience", "350+ Designers and Developers", "User Acquisition Modeling", "Proven Expertise in Cutting-Edge Technologies", "MVP Architecture Design"].map((e, i) => (
+                                        ["500+ Online Stores Built", "99.9% Uptime Guarantee", "80% Faster Load Time", "24/7 Support Available"].map((e, i) => (
                                             <li key={i} className="flex items-center gap-2.5">
                                                 <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M13.8043 0.69031C14.5442 0.263145 15.4558 0.263145 16.1957 0.69031L26.7947 6.80969C27.5346 7.23686 27.9904 8.02629 27.9904 8.88062V21.1194C27.9904 21.9737 27.5346 22.7631 26.7947 23.1903L16.1957 29.3097C15.4558 29.7369 14.5442 29.7369 13.8043 29.3097L3.20527 23.1903C2.4654 22.7631 2.00962 21.9737 2.00962 21.1194V8.88062C2.00962 8.02629 2.4654 7.23686 3.20527 6.80969L13.8043 0.69031Z" fill="#92F3F4" />
@@ -79,7 +79,7 @@ export default function WhyChoose() {
                             <BlurFade delay={0.5 * 2} inView>
                                 <ul className="text-[14px] xl:text-[16px] leading-relaxed grid grid-cols-1 sm:grid-cols-2 gap-2.5">
                                     {
-                                        ["1300+ Successful Projects", "15+ Years of Experience", "350+ Designers and Developers", "User Acquisition Modeling", "Proven Expertise in Cutting-Edge Technologies", "MVP Architecture Design"].map((e, i) => (
+                                        ["500+ Online Stores Built ", "99.9% Uptime Guarantee", "80% Faster Load Time", "24/7 Support Available"].map((e, i) => (
                                             <li key={i} className="flex items-center gap-2.5">
                                                 <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M13.8043 0.69031C14.5442 0.263145 15.4558 0.263145 16.1957 0.69031L26.7947 6.80969C27.5346 7.23686 27.9904 8.02629 27.9904 8.88062V21.1194C27.9904 21.9737 27.5346 22.7631 26.7947 23.1903L16.1957 29.3097C15.4558 29.7369 14.5442 29.7369 13.8043 29.3097L3.20527 23.1903C2.4654 22.7631 2.00962 21.9737 2.00962 21.1194V8.88062C2.00962 8.02629 2.4654 7.23686 3.20527 6.80969L13.8043 0.69031Z" fill="#92F3F4" />

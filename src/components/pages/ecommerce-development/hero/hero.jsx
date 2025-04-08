@@ -50,19 +50,19 @@ export default function Hero() {
                     <div className="max-w-[820px]">
                         <BlurFade delay={0.5} inView>
                             <h1 className="text-[24px] sm:text-[40px] md:text-[50px] lg:text-[58px] font-bold leading-snug sm:leading-tight mb-3">
-                                <span className="text-primary">Discover</span> Your Online Potential Top <span className="text-primary">E-Commerce</span> Web Development!
+                            Build, Grow, and Sell with a Seamless <span className="text-primary">E-Commerce</span> Website
                             </h1>
                         </BlurFade>
                         <BlurFade delay={0.5 * 2} inView>
                             <p className="text-[16px] leading-relaxed mb-5">
-                                Boost your website sales with our exceptional ecommerce web design and development services tailored for your business. Let our experts create an engaging online store that drives more conversions and maximizes your revenue potential.
+                            Studies show that 88% of online shoppers won’t return to a site after a bad experience, and slow-loading pages can lead to a 7% drop in conversions. That’s why strong eCommerce website development focuses on making sure your site loads quickly, processes payments securely, and provides a seamless shopping experience. If customers can’t find what they need or face checkout issues, they’ll leave, costing you sales. At Dream Weave Media, we create simple, fast, and user-friendly online stores that help you sell more.
                             </p>
                         </BlurFade>
                         <BlurFade delay={0.5 * 3} inView>
                             <Button asChild variant="linkIcon2">
                                 <div dangerouslySetInnerHTML={{
                                     __html: `<a href='javascript:;'>
-                                    <span>Let’s Discuss</span>
+                                    <span>Let’s talk about your website today!</span>
                                     <div class='inline-flex items-center justify-center border-2 border-white rounded-full w-[40px] h-[40px]'>
                                         <img src='/right-arrow.svg' alt="Dream Weave Media" width='23' height='22' />
                                     </div>

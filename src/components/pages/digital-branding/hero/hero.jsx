@@ -47,22 +47,23 @@ export default function Hero() {
             <div className="bg-black pt-[150px] pb-[70px] xl:pb-[100px] xl:pt-0 xl:h-screen flex flex-col justify-end relative">
                 <Image src={bg} alt="Dream Weave Media" fill priority className="object-cover object-center z-[1]" />
                 <div className="container relative z-10">
-                    <div className="max-w-[815px]">
+                    <div className="max-w-[1100px]">
                         <BlurFade delay={0.5} inView>
-                            <h1 className="text-[29px] sm:text-[48px] md:text-[62px] lg:text-[70px] font-bold leading-snug sm:leading-tight mb-3">
-                                Shaping Experiences with <span className="text-primary">Top-Rated Digital Branding</span> Services!
+                            <span className="block text-[23px] lg:text-[28px] text-primary font-bold leading-tight mb-5">Professional Digital Branding Services That Define Your Brand!</span>
+                            <h1 className="text-[29px] sm:text-[48px] md:text-[62px] lg:text-[65px] font-bold leading-snug sm:leading-tight mb-3">
+                               Your Brand Isn’t Just a Logo, It’s How People Remember You.
                             </h1>
                         </BlurFade>
                         <BlurFade delay={0.5 * 2} inView>
                             <p className="text-[16px] leading-relaxed mb-5">
-                                Do you want to boost your digital presence with top-class UI/UX design? Dream Weave Media is where you must start this journey. Your website doesn’t just have to look good, it should work right too and that exactly is what we do for you.
+                            Turning users into conversions is more than just a numbers game. If you don’t think about the role digital branding can play in your digital marketing then you must be missing out. Branding is more than colors and fonts, it’s the story people connect with. If your brand isn’t clear, memorable, or consistent, you’re missing out on customers who could have trusted you. At Dream Weave Media, we help businesses create a brand identity that stands out, builds loyalty, and leaves a lasting impression.
                             </p>
                         </BlurFade>
                         <BlurFade delay={0.5 * 3} inView>
                             <Button asChild variant="linkIcon2">
                                 <div dangerouslySetInnerHTML={{
                                     __html: `<a href='javascript:;'>
-                                    <span>Let’s Discuss</span>
+                                    <span>Contact Us</span>
                                     <div class='inline-flex items-center justify-center border-2 border-white rounded-full w-[40px] h-[40px]'>
                                         <img src='/right-arrow.svg' alt="Dream Weave Media" width='23' height='22' />
                                     </div>

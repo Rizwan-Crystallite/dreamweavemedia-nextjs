@@ -17,33 +17,41 @@ const data = [
     {
         category: "Web Development",
         logo: logo1,
-        title: "Roommate Matching Social Platform",
-        para: "Roommate Matching Social Platform tackles the age-old challenge of Roommate Matching for college students. With this feature-rich social network, students will now have the ability to leverage a suite of tools and A.I. to streamline, simplify and improve the roommate selection process, leading to more successful relationships.",
+        title: "See How We Help Brands Succeed",
+        para: "We work with startups, enterprises, and growing businesses to build real solutions, not just fancy ideas. Every project we take on is designed to solve a problem, create value, and push boundaries.",
         project: project1,
         link: "/case-studies/food-website-design-and-development"
     },
     {
         category: "Web Development",
         logo: logo2,
-        title: "Roommate Matching Social Platform",
-        para: "Roommate Matching Social Platform tackles the age-old challenge of Roommate Matching for college students. With this feature-rich social network, students will now have the ability to leverage a suite of tools and A.I. to streamline, simplify and improve the roommate selection process, leading to more successful relationships.",
+        title: "Giving a Fashion Startup a Digital Edge",
+        para: "A new clothing brand came to us with a bold idea, sell unique designs online and build a loyal customer base. We crafted a slick ecommerce site, brand identity, and digital marketing plan that turned their concept into a full-time business.",
         project: project2,
         link: "/case-studies/food-website-design-and-development"
     },
     {
         category: "Web Development",
         logo: logo1,
-        title: "Roommate Matching Social Platform",
-        para: "Roommate Matching Social Platform tackles the age-old challenge of Roommate Matching for college students. With this feature-rich social network, students will now have the ability to leverage a suite of tools and A.I. to streamline, simplify and improve the roommate selection process, leading to more successful relationships.",
+        title: "Helping a Health-Tech App Go Live Fast",
+        para: "When a healthcare startup needed a mobile app to connect doctors and patients, we stepped in with end-to-end development. From design to deployment, we built a fast, user-friendly platform that helped them launch quickly, and scale faster.",
         project: project1,
         link: "/case-studies/food-website-design-and-development"
     },
     {
         category: "Web Development",
         logo: logo2,
-        title: "Roommate Matching Social Platform",
-        para: "Roommate Matching Social Platform tackles the age-old challenge of Roommate Matching for college students. With this feature-rich social network, students will now have the ability to leverage a suite of tools and A.I. to streamline, simplify and improve the roommate selection process, leading to more successful relationships.",
+        title: "Taking an Offline Store Online",
+        para: "A local bookstore wanted to reach more readers. We built an easy-to-navigate online store with smart inventory tools and mobile-friendly checkout. Sales doubled in the first two months, and they’ve been growing ever since.",
         project: project2,
+        link: "/case-studies/food-website-design-and-development"
+    },
+    {
+        category: "Web Development",
+        logo: logo1,
+        title: "Boosting Online Reach for a SaaS Brand",
+        para: "A software-as-a-service business was struggling with low traffic and poor engagement. We revamped their website, added clear messaging, and launched a targeted SEO + PPC strategy that brought in more qualified leads, and kept them coming.",
+        project: project1,
         link: "/case-studies/food-website-design-and-development"
     }
 ]

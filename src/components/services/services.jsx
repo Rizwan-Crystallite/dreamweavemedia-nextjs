@@ -17,32 +17,32 @@ import { BlurFade } from "@/components/magicui/blur-fade"
 const data = [
     {
         title: "Web <br> Development",
-        para: "Get an edge over your competitors and boost your profitability with magnetic web experiences. Dream Weave Media is the choice of the UAE’s leading brands for website design and web development services in Dubai. Whether it’s custom web development or WordPress web development, we make sure you get the best of both worlds in the form of a responsive, secure, and high-performance website.",
+        para: "A great website is the heart of any online business. Dream Weave Media builds fast, secure, and mobile-friendly websites that work perfectly on all devices. Our developers make sure your website looks great and functions smoothly. Whether you need a small business site or a big platform, Dream Weave Media turns your ideas into a fully working website that helps your business grow.",
         link: "/web-development"
     },
     {
         title: "Digital <br> Marketing",
-        para: "Get an edge over your competitors and boost your profitability with magnetic web experiences. Dream Weave Media is the choice of the UAE’s leading brands for website design and web development services in Dubai. Whether it’s custom web development or WordPress web development, we make sure you get the best of both worlds in the form of a responsive, secure, and high-performance website.",
+        para: "Dream Weave Media helps you reach the right people online. We use SEO, social media, ads, and email marketing to bring customers to your business. Our team creates smart marketing plans to grow your audience and increase sales. With Dream Weave Media, your business gets noticed, attracts more customers, and stands out.",
         link: "/digital-marketing"
     },
     {
         title: "Video <br> Animation",
-        para: "Get an edge over your competitors and boost your profitability with magnetic web experiences. Dream Weave Media is the choice of the UAE’s leading brands for website design and web development services in Dubai. Whether it’s custom web development or WordPress web development, we make sure you get the best of both worlds in the form of a responsive, secure, and high-performance website.",
+        para: "Videos grab attention faster than anything else. Dream Weave Media creates fun, engaging, and high-quality animations to bring your ideas to life. Whether you need explainer videos, ads, or motion graphics, we make sure your message is clear and exciting. Our animation team turns complex ideas into simple and fun videos that people love to watch.",
         link: "/video-animation"
     },
     {
         title: "Ecommerce <br> Development",
-        para: "Get an edge over your competitors and boost your profitability with magnetic web experiences. Dream Weave Media is the choice of the UAE’s leading brands for website design and web development services in Dubai. Whether it’s custom web development or WordPress web development, we make sure you get the best of both worlds in the form of a responsive, secure, and high-performance website.",
+        para: "Selling products online should be easy for you and your customers. Dream Weave Media builds e-commerce websites that are simple to use and secure. We help you create an online store that looks great, loads fast, and makes shopping easy. Whether you sell a few products or thousands, Dream Weave Media makes sure your store works smoothly and helps you grow your business.",
         link: "/ecommerce-development"
     },
     {
         title: "Digital <br> Branding",
-        para: "Get an edge over your competitors and boost your profitability with magnetic web experiences. Dream Weave Media is the choice of the UAE’s leading brands for website design and web development services in Dubai. Whether it’s custom web development or WordPress web development, we make sure you get the best of both worlds in the form of a responsive, secure, and high-performance website.",
+        para: "Dream Weave Media helps your business stand out online. We create logos, color themes, and styles that make your brand unique. Our well-executed digital branding strategy can improve your website's ranking in search engine results pages (SERPs), leading to increased organic traffic and brand visibility. A strong brand makes people trust your business and remember it.",
         link: "/digital-branding"
     },
     {
         title: "UI/UX <br> Design",
-        para: "Get an edge over your competitors and boost your profitability with magnetic web experiences. Dream Weave Media is the choice of the UAE’s leading brands for website design and web development services in Dubai. Whether it’s custom web development or WordPress web development, we make sure you get the best of both worlds in the form of a responsive, secure, and high-performance website.",
+        para: "At Dream Weave Media, we make websites and apps with Well-designed interfaces that lead to smoother navigation and ease of use, following a more positive user experience and higher customer satisfaction. Our UI/UX design team focuses on how things look and feel. We create simple, clean, and user-friendly designs that help people enjoy using your website or app.",
         link: "/ui-ux-design"
     }
 ]
@@ -66,7 +66,7 @@ export default function Services() {
                                 Services
                             </span>
                             <h3 className="text-[40px] md:text-[50px] lg:text-[60px] leading-tight font-bold sm:absolute sm:top-7 md:top-14 lg:top-24 mb-10">
-                                Core Services We Provide
+                                Services We Provide
                             </h3>
                         </div>
                     </BlurFade>

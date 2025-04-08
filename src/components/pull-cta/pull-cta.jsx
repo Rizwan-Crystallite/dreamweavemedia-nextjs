@@ -13,9 +13,7 @@ export default function PullCTA() {
                             <span className="text-[18px] font-light leading-tight mb-5 inline-block">Pull The Trigger!</span>
                         </BlurFade>
                         <BlurFade delay={0.5 * 2} inView>
-                            <h2 className="text-[30px] sm:text-[50px] lg:text-[70px] font-bold leading-tight">
-                                <span className="text-primary">Initiate</span> Your Project <br className="hidden sm:block" /> The Moment Has <span className="text-primary">Arrived.</span>
-                            </h2>
+                            <h2 className="text-[30px] sm:text-[50px] lg:text-[70px] font-bold leading-tight">Step Into the Digital Spotlight With <span className="text-primary">Drean Weave Media</span></h2>
                         </BlurFade>
                         <BlurFade delay={0.5 * 3} inView>
                             <Button asChild className="mx-auto mt-5">

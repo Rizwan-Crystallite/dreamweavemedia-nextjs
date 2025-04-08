@@ -5,9 +5,11 @@ import shade2 from "media/shade-2.webp"
 import one from "media/our-process/1.webp"
 import two from "media/our-process/2.webp"
 import three from "media/our-process/3.webp"
-import four from "media/our-process/4.webp"
-import five from "media/our-process/5.webp"
-import six from "media/our-process/6.webp"
+
+// import four from "media/our-process/4.webp"
+// import five from "media/our-process/5.webp"
+// import six from "media/our-process/6.webp"
+
 // Framer
 import { motion } from "framer-motion"
 // Next
@@ -19,39 +21,21 @@ import { AutoPlayFadeSlider, Button } from "@/components"
 
 const data = [
     {
-        title: "Ideate",
-        para: "Signal is a next-gen communication app that prioritizes your privacy with end-to-end encryption. Experience seamless, secure messaging without compromising your data.",
+        title: "Imagine",
+        para: "At Dream Weave Media, we start by dreaming up fresh, brilliant ideas that shine. We mix creativity with smart thinking to imagine fun ways for brands to stand out online. Our team listens carefully to understand what makes you unique.",
         img: one,
         link: "javascript:;"
     },
     {
-        title: "Design",
-        para: "Product design merges form and function to create user-centered solutions. It focuses on crafting products that are not only aesthetically pleasing but also practical and intuitive to use.",
+        title: "Build",
+        para: "We build your digital presence step by step. Our team uses easy, smart tools to design and set up your website and social media channels. We work hard to make every click count and every page welcoming for visitors.",
         img: two,
         link: "javascript:;"
     },
     {
-        title: "Develop",
-        para: "Develop involves creating and refining software solutions through coding, testing, and iteration. The process ensures that applications are functional, efficient, and meet user needs.",
+        title: "Check",
+        para: "We carefully check everything to make sure it works perfectly. Our experts test your digital tools and review every detail so that your brand stays safe, easy to use, and fun for everyone. We fix issues as they come.",
         img: three,
-        link: "javascript:;"
-    },
-    {
-        title: "Test",
-        para: "An educational test measures students' knowledge and skills in a specific subject area. It helps educators assess learning progress, identify areas for improvement, and guide instructional strategies.",
-        img: four,
-        link: "javascript:;"
-    },
-    {
-        title: "Launch",
-        para: "A software launch releases a new or updated application to users, involving extensive testing, marketing, and user support. It aims to deliver a seamless experience and introduce new.",
-        img: five,
-        link: "javascript:;"
-    },
-    {
-        title: "Support",
-        para: "Customer support provides assistance to users by resolving issues, answering questions, and offering guidance. It ensures a positive experience by addressing concerns promptly and effectively.",
-        img: six,
         link: "javascript:;"
     }
 ]

@@ -57,14 +57,14 @@ export default function Awards() {
                             </span>
                             <h3 className="text-[24px] sm:text-[35px] md:text-[45px] lg:text-[50px] xl:text-[60px] leading-snug sm:leading-tight font-bold md:absolute md:top-0 md:bottom-0 md:left-0 md:right-0 max-w-[1000px] inline-flex justify-center h-full">
                                 <span>
-                                    We Transform Businesses Through <span className="text-primary">Design Innovation.</span>
+                                    We Transform Businesses Through <span className="text-primary">Creative Design.</span>
                                 </span>
                             </h3>
                         </div>
                     </BlurFade>
                     <BlurFade delay={0.5 * 2} inView>
                         <p className="text-[16px] sm:text-[18px] lg:text-[24px] leading-relaxed max-w-[950px]">
-                            A full-spectrum Design &development company empowering enterprises with visionary digital transformations that set new benchmarks for innovation.
+                        Dream Weave Media offers many design and development services. We help businesses grow by using new digital ideas that stand out and raise the bar for creativity.
                         </p>
                     </BlurFade>
                 </div>

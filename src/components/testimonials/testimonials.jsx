@@ -55,14 +55,14 @@ export default function Testimonials() {
                             </span>
                             <h3 className="text-[40px] sm:text-[45px] lg:text-[50px] xl:text-[60px] leading-snug font-bold sm:absolute sm:top-0 sm:bottom-0 sm:h-full sm:flex sm:items-center justify-center sm:right-0 sm:left-0 text-center">
                                 <span>
-                                    Our Clients Simply Love <span className="text-primary"> <br className=" lg:hidden" /> What We Do.</span>
+                                    Our Clients Love <span className="text-primary"> <br className=" lg:hidden" /> What We Do.</span>
                                 </span>
                             </h3>
                         </div>
                     </BlurFade>
                     <BlurFade delay={0.5 * 2} inView>
                         <p className="text-[16px] sm:text-[20px] lg:text-[24px] leading-relaxed max-w-[950px] text-center mx-auto mb-10">
-                            Proud to serve as the innovation partner for industry leaders who have experienced our expertise and excellence firsthand.
+                        We listen carefully to what our clients need and then use our creative skills to build great digital projects.
                         </p>
                     </BlurFade>
                     <BlurFade delay={0.5 * 3} inView>
